@@ -11,6 +11,9 @@ from manager import user_manager, event_manager
 @handle_json_response
 def create_admin(request):
     if request.method == 'POST' :
+        return {
+            'status': 'success',
+        }
         body = json.loads(request.body)
         body['user_type'] = 'admin'
 

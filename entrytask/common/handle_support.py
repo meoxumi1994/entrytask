@@ -3,6 +3,10 @@ from common.auth import auth_admin, auth_visitor
 from common.error_support import Error
 import traceback, sys
 
+import time
+import logging
+
+logger = logging.getLogger('django')
 
 def handle_json_response(f):
     def wrapper(request):
@@ -15,7 +19,9 @@ def handle_json_response(f):
 def handle_error(f):
     def wrapper(request):
         try:
+            start_time = time.time()
             response = f(request)
+            logger.info("handle time excution : %s seconds" % (time.time() - start_time))
         except ValueError :
             return JsonResponse({ 'error': Error.VALUE }, safe=False)
         except OSError :
@@ -49,4 +55,11 @@ def handle_auth_visitor(f):
         return f(request, user_id)
     return wrapper
 
+def handle_time(f):
+    def wrapper(request):
+        start_time = time.time()
+        response = f(request)
+        print("--- %s seconds ---" % (time.time() - start_time))
+        return response
+    return wrapper
 __All__ = []
