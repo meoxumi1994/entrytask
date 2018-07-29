@@ -16,8 +16,9 @@ def create_admin(request):
         body = json.loads(request.body)
         body['user_type'] = 'admin'
 
-        if body['user_name'] is None or body['password'] is None:
-            return error(Error.USER_NAME_OR_PASSWORD)
+        req = require(body, ['user_name', 'password'])
+        if req:
+            return error(req)
 
         if user_manager.check_user_name_is_used(body):
             return error(Error.USER_NAME_USED)

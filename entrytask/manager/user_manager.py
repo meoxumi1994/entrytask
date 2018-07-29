@@ -1,6 +1,7 @@
 from common.model import CategoryTab, UserTab, EventTab
 from common.object_support import assign
 import hashlib, uuid, datetime, json
+from django.core.cache import cache
 
 def get(data):
     user = UserTab.objects.filter(pk=data['user_id'])
@@ -15,7 +16,15 @@ def create(data):
     return user.save()
 
 def check_user_name_is_used(data):
-    return UserTab.objects.filter(user_name=data['user_name'], user_type=data['user_type'])
+    if cache.get(data['user_name']) :
+        return cache.get(data['user_name'])
+
+    user = UserTab.objects.filter(user_name=data['user_name'], user_type=data['user_type'])
+
+    print('CALL DATABASE')
+
+    cache.set(data['user_name'], user)
+    return user
 
 def get_salt(data):
     user = UserTab.objects.filter(user_name=data['user_name'], user_type=data['user_type'])

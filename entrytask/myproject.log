@@ -14293,3 +14293,99 @@ AttributeError: 'dict' object has no attribute 'status_code'
 [29/Jul/2018 12:00:52] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 339
 [29/Jul/2018 12:01:55] INFO [django:24] handle time excution : 0.00370097160339 seconds
 [29/Jul/2018 12:01:55] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 198
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.0157580375671 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 33
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00309205055237 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 7.89165496826e-05 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00509214401245 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 8.79764556885e-05 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.0114390850067 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.0050151348114 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.0019850730896 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.000855922698975 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 198
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00539302825928 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00245594978333 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00325798988342 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00382900238037 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 8.58306884766e-05 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 14:16:07] INFO [django:24] handle time excution : 0.00255608558655 seconds
+[29/Jul/2018 14:16:07] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 15:11:54] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:13:04] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:13:29] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:15:24] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:15:43] INFO [django:24] handle time excution : 0.00713396072388 seconds
+[29/Jul/2018 15:15:43] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:17:58] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:25:16] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 15:27:09] INFO [django:24] handle time excution : 0.00468301773071 seconds
+[29/Jul/2018 15:27:09] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:27:12] INFO [django:24] handle time excution : 0.00692987442017 seconds
+[29/Jul/2018 15:27:12] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:27:26] INFO [django:24] handle time excution : 0.0027711391449 seconds
+[29/Jul/2018 15:27:26] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:27:27] INFO [django:24] handle time excution : 0.00280594825745 seconds
+[29/Jul/2018 15:27:27] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:29:28] INFO [django:24] handle time excution : 0.00450205802917 seconds
+[29/Jul/2018 15:29:28] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:29:35] INFO [django:24] handle time excution : 0.00259685516357 seconds
+[29/Jul/2018 15:29:35] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:29:36] INFO [django:24] handle time excution : 0.00262498855591 seconds
+[29/Jul/2018 15:29:36] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:29:37] INFO [django:24] handle time excution : 0.00252389907837 seconds
+[29/Jul/2018 15:29:37] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:29:37] INFO [django:24] handle time excution : 0.00275206565857 seconds
+[29/Jul/2018 15:29:37] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:03] INFO [django:24] handle time excution : 0.00754189491272 seconds
+[29/Jul/2018 15:30:03] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:04] INFO [django:24] handle time excution : 0.00269985198975 seconds
+[29/Jul/2018 15:30:04] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:04] INFO [django:24] handle time excution : 0.00254988670349 seconds
+[29/Jul/2018 15:30:04] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:05] INFO [django:24] handle time excution : 0.00272512435913 seconds
+[29/Jul/2018 15:30:05] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:05] INFO [django:24] handle time excution : 0.00311088562012 seconds
+[29/Jul/2018 15:30:05] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:30:42] INFO [django:24] handle time excution : 0.00612092018127 seconds
+[29/Jul/2018 15:30:42] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:31:25] INFO [django:24] handle time excution : 0.00699996948242 seconds
+[29/Jul/2018 15:31:25] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:31:43] INFO [django:24] handle time excution : 0.00279784202576 seconds
+[29/Jul/2018 15:31:43] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:31:43] INFO [django:24] handle time excution : 0.00264096260071 seconds
+[29/Jul/2018 15:31:43] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:32:04] INFO [django:24] handle time excution : 0.00526094436646 seconds
+[29/Jul/2018 15:32:04] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:32:05] INFO [django:24] handle time excution : 0.00269603729248 seconds
+[29/Jul/2018 15:32:05] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:44:13] INFO [django:24] handle time excution : 0.00788807868958 seconds
+[29/Jul/2018 15:44:13] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:44:14] INFO [django:24] handle time excution : 0.000957012176514 seconds
+[29/Jul/2018 15:44:14] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:44:14] INFO [django:24] handle time excution : 0.000897884368896 seconds
+[29/Jul/2018 15:44:14] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:44:15] INFO [django:24] handle time excution : 0.000931978225708 seconds
+[29/Jul/2018 15:44:15] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:44:15] INFO [django:24] handle time excution : 0.000877857208252 seconds
+[29/Jul/2018 15:44:15] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:46:58] INFO [django:24] handle time excution : 0.0041229724884 seconds
+[29/Jul/2018 15:46:58] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:46:59] INFO [django:24] handle time excution : 0.000940084457397 seconds
+[29/Jul/2018 15:46:59] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:46:59] INFO [django:24] handle time excution : 0.00082802772522 seconds
+[29/Jul/2018 15:46:59] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 15:47:00] INFO [django:24] handle time excution : 0.000872850418091 seconds
+[29/Jul/2018 15:47:00] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60

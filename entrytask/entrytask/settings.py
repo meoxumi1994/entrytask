@@ -10,15 +10,25 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-import os
+import os, hashlib
 
 PROJECT_DIR=os.path.dirname(__file__)
 # Cache
+
 CACHE_BACKEND = 'memcached://127.0.0.1:11211/'
+def hash_key(key, key_prefix, version):
+    new_key = '%s:%s:%s' % (key_prefix, version, key)
+    # if len(new_key) > 250:
+    m = hashlib.md5()
+    m.update(new_key)
+    new_key = m.hexdigest()
+    return new_key
+
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
         'LOCATION': '127.0.0.1:11211',
+        'KEY_FUNCTION': hash_key
     }
 }
 
@@ -37,12 +47,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
-        'LOCATION': 'my_cache_table'
-    }
-}
 
 # Application definition
 
