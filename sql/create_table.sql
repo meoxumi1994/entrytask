@@ -3,15 +3,15 @@ USE event_sharing_db;
 
 CREATE TABLE user_tab (
 	id int NOT NULL AUTO_INCREMENT,
-	user_name varchar(255),
-    password varchar(255),
+	user_name varchar(255) NOT NULL,
+    password varchar(255) NOT NULL,
     address varchar(255),
     create_time datetime,
     full_name varchar(255),
-    first_name varchar(255),
-    last_name varchar(255),
     is_active boolean,
     user_type varchar(255),
+    email varchar(255),
+    salt varchar(255),
     avatar varchar(255),
 	create_by varchar(255),
     PRIMARY KEY (id)
@@ -29,8 +29,9 @@ CREATE TABLE event_tab (
     FOREIGN KEY (create_by) REFERENCES user_tab(id)
 ) ENGINE=InnoDB;
 CREATE INDEX idx_create_by ON event_tab (create_by);
+CREATE INDEX idx_event_time ON event_tab (event_time);
 
-CREATE TABLE participants_tab (
+CREATE TABLE participant_tab (
 	id int NOT NULL AUTO_INCREMENT,
 	user_id int NOT NULL,
     event_id int NOT NULL,
@@ -39,8 +40,8 @@ CREATE TABLE participants_tab (
     FOREIGN KEY (user_id) REFERENCES user_tab(id),
     FOREIGN KEY (event_id) REFERENCES event_tab(id)
 ) ENGINE=InnoDB;
-CREATE INDEX idx_event_id_create_time ON participants_tab (event_id, create_time);
-CREATE INDEX idx_user_id_create_time ON participants_tab (user_id, create_time);
+CREATE INDEX idx_event_id_create_time ON participant_tab (event_id, create_time);
+CREATE INDEX idx_user_id_create_time ON participant_tab (user_id, create_time);
 
 CREATE TABLE comment_tab (
 	id int NOT NULL AUTO_INCREMENT,
@@ -107,5 +108,25 @@ CREATE TABLE event_tag_tab (
     FOREIGN KEY (event_id) REFERENCES event_tab(id),
     FOREIGN KEY (tag_id) REFERENCES tag_tab(id)
 ) ENGINE=InnoDB;
-CREATE INDEX idx_tag_id_event_id ON event_tag_tab(tag_id, event_id)
+CREATE INDEX idx_tag_id_event_id ON event_tag_tab(tag_id, event_id);
 
+CREATE TABLE photo_tab (
+	id int NOT NULL AUTO_INCREMENT,
+    photo_url varchar(255),
+    photo_content varchar(255),
+    creat_time datetime,
+    event_id int NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (event_id) REFERENCES event_tab(id)
+) ENGINE=InnoDB;
+CREATE INDEX idx_event_id_create_time ON photo_tab(event_id, creat_time);
+
+CREATE TABLE description_tab (
+	id int NOT NULL AUTO_INCREMENT,
+    description varchar(512),
+    creat_time datetime,
+    event_id int NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (event_id) REFERENCES event_tab(id)
+) ENGINE=InnoDB;
+CREATE INDEX idx_event_id_create_time ON description_tab(event_id, creat_time);

@@ -1,1 +1,1 @@
-DROP DATABASE testDB;
+DROP DATABASE event_sharing_db;

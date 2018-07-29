@@ -6,7 +6,7 @@ curl -X POST \
       -H 'Content-Type: application/json' \
       -H 'Postman-Token: bbc73dd3-a3fc-49a4-97b6-dac25ea563cf' \
       -d '{
-        "user_name" : "tran minh 12 13",
+        "user_name" : "tran minh 12 13666",
         "password" : "123456_hihi",
         "email" : "minhtd5@gmail.com",
         "address" : "213 binh thanh, hcm",
