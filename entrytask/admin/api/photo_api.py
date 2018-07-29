@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from common.photo_support import add_photo
 from common.handle_support import handle_auth_admin, handle_error, handle_json_response
 from common.error_support import Error
+from common.response_handle import error, success
 import json
 from manager import user_manager, event_manager
 
@@ -14,6 +15,6 @@ def photo(request, admin_id):
     if request.method == 'POST' :
         body = json.loads(request.body)
         image_url = add_photo(body['base64'])
-        return {
-            'status': 'success'
-        }
+        return success({
+            'image_url': image_url
+        })

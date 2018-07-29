@@ -1,7 +1,10 @@
 from common.model import CategoryTab, UserTab, EventTab
 from common.object_support import assign
-import hashlib, uuid, datetime
+import hashlib, uuid, datetime, json
 
+def get(data):
+    user = UserTab.objects.filter(pk=data['user_id'])
+    return user.values()[0]
 
 def create(data):
     salt = uuid.uuid4().hex
@@ -25,6 +28,7 @@ def verify(data):
     if not user:
         return None
     hashed_password = hashlib.sha512(data['password'] + user[0].salt).hexdigest()
-    if hashed_password != user[0].password:
+    print(hashed_password)
+    if data['password'] != user[0].password:
         return None
-    return user[0]
+    return user.values()[0]

@@ -37,10 +37,9 @@ def handle_auth_admin(f):
         try:
             admin_id = auth_admin(request)
             if not admin_id:
-                return JsonResponse({'error': Error.AUTH_FAILED }, safe=False)
+                return {'error': Error.AUTH_FAILED }
         except:
-            return JsonResponse({'error': Error.AUTH_FAILED }, safe=False)
-
+            return {'error': Error.AUTH_FAILED }
         return f(request, admin_id)
     return wrapper
 
@@ -49,9 +48,9 @@ def handle_auth_visitor(f):
         try:
             user_id = auth_visitor(request)
             if not user_id:
-                return JsonResponse({'error': Error.AUTH_FAILED }, safe=False)
+                return {'error': Error.AUTH_FAILED }
         except:
-            return JsonResponse({'error': Error.AUTH_FAILED }, safe=False)
+            return {'error': Error.AUTH_FAILED }
         return f(request, user_id)
     return wrapper
 
@@ -62,4 +61,5 @@ def handle_time(f):
         print("--- %s seconds ---" % (time.time() - start_time))
         return response
     return wrapper
+
 __All__ = []

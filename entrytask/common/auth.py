@@ -21,7 +21,6 @@ def auth_visitor(request):
         if data['id'] and datetime.datetime.strptime(data['expiration_date'], "%Y-%m-%d %H:%M:%S") >= datetime.datetime.now() :
             return data['id']
     except:
-        print(traceback.format_exc())
         return False
     return False
 
@@ -33,7 +32,6 @@ def auth_admin(request):
         if data['id'] and datetime.datetime.strptime(data['expiration_date'], "%Y-%m-%d %H:%M:%S") >= datetime.datetime.now() :
             return data['id']
     except:
-        print(traceback.format_exc())
         return False
     return False
 

@@ -1,2 +1,2 @@
 class Config(object):
-    static_link = '/static'
+    static_link = 'static/'

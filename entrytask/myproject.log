@@ -13026,3 +13026,1270 @@
 [28/Jul/2018 06:26:38] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 21
 [28/Jul/2018 06:26:38] INFO [django:24] handle time excution : 4.29153442383e-05 seconds
 [28/Jul/2018 06:26:38] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 21
+[28/Jul/2018 06:41:18] INFO [django:24] handle time excution : 4.19616699219e-05 seconds
+[28/Jul/2018 06:41:18] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 21
+[28/Jul/2018 06:41:36] INFO [django:24] handle time excution : 4.29153442383e-05 seconds
+[28/Jul/2018 06:41:36] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 21
+[29/Jul/2018 03:55:23] INFO [django:24] handle time excution : 0.0335760116577 seconds
+[29/Jul/2018 03:55:23] INFO [django.server:124] "POST /visitor/create_visitor HTTP/1.1" 200 63
+[29/Jul/2018 06:51:17] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 06:54:12] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 06:54:37] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 06:59:12] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 06:59:39] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 07:01:38] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 07:07:56] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 07:08:24] INFO [django:24] handle time excution : 0.0161728858948 seconds
+[29/Jul/2018 07:08:24] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 60
+[29/Jul/2018 07:08:30] INFO [django.server:124] "POST /admin/create_admin HTTP/1.1" 200 62
+[29/Jul/2018 09:00:59] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 24
+[29/Jul/2018 09:01:32] INFO [django:24] handle time excution : 0.00374484062195 seconds
+[29/Jul/2018 09:01:32] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:02:06] INFO [django:24] handle time excution : 0.0060658454895 seconds
+[29/Jul/2018 09:02:06] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:02:09] INFO [django:24] handle time excution : 0.00250697135925 seconds
+[29/Jul/2018 09:02:09] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:02:16] INFO [django:24] handle time excution : 0.00506114959717 seconds
+[29/Jul/2018 09:02:16] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:02:18] INFO [django:24] handle time excution : 0.00294399261475 seconds
+[29/Jul/2018 09:02:18] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:05:17] INFO [django:24] handle time excution : 4.50611114502e-05 seconds
+[29/Jul/2018 09:05:17] INFO [django.server:124] "GET /admin/salt?user_name=tran%20duc%20minh HTTP/1.1" 200 33
+[29/Jul/2018 09:07:12] INFO [django.server:124] "GET /admin/salt?user_name=tran%20duc%20minh HTTP/1.1" 200 62
+[29/Jul/2018 09:07:30] INFO [django.server:124] "GET /admin/salt?user_name=tran%20duc%20minh HTTP/1.1" 200 62
+[29/Jul/2018 09:08:36] INFO [django.server:124] "GET /admin/salt?user_name=tran%20duc%20minh HTTP/1.1" 200 62
+[29/Jul/2018 09:11:01] INFO [django:24] handle time excution : 0.00328612327576 seconds
+[29/Jul/2018 09:11:01] INFO [django.server:124] "GET /admin/salt?user_name=tran%20duc%20minh HTTP/1.1" 200 45
+[29/Jul/2018 09:15:04] INFO [django:24] handle time excution : 0.0078330039978 seconds
+[29/Jul/2018 09:15:04] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:16:40] INFO [django:24] handle time excution : 0.00335597991943 seconds
+[29/Jul/2018 09:16:40] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:17:45] INFO [django:24] handle time excution : 0.00286483764648 seconds
+[29/Jul/2018 09:17:45] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:18:00] INFO [django:24] handle time excution : 0.00215816497803 seconds
+[29/Jul/2018 09:18:00] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:21:39] INFO [django:24] handle time excution : 0.00531101226807 seconds
+[29/Jul/2018 09:21:39] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:22:00] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 62
+[29/Jul/2018 09:26:48] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 62
+[29/Jul/2018 09:27:06] INFO [django:24] handle time excution : 0.00674605369568 seconds
+[29/Jul/2018 09:27:06] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:29:08] INFO [django:24] handle time excution : 0.00564694404602 seconds
+[29/Jul/2018 09:29:08] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 59
+[29/Jul/2018 09:29:50] INFO [django:24] handle time excution : 0.0076699256897 seconds
+[29/Jul/2018 09:29:50] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:31:32] INFO [django:24] handle time excution : 0.00594401359558 seconds
+[29/Jul/2018 09:31:32] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:32:26] INFO [django:24] handle time excution : 0.00512599945068 seconds
+[29/Jul/2018 09:32:26] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:32:26] INFO [django:24] handle time excution : 0.0023889541626 seconds
+[29/Jul/2018 09:32:26] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:32:39] INFO [django:24] handle time excution : 0.0022919178009 seconds
+[29/Jul/2018 09:32:39] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:32:39] INFO [django:24] handle time excution : 0.00666999816895 seconds
+[29/Jul/2018 09:32:39] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:35:08] INFO [django:24] handle time excution : 0.00568795204163 seconds
+[29/Jul/2018 09:35:08] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:35:08] INFO [django:24] handle time excution : 0.00238800048828 seconds
+[29/Jul/2018 09:35:08] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:35:08] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 24
+[29/Jul/2018 09:38:22] INFO [django:24] handle time excution : 0.00427293777466 seconds
+[29/Jul/2018 09:38:22] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:38:22] INFO [django:24] handle time excution : 0.00250697135925 seconds
+[29/Jul/2018 09:38:22] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:38:22] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 24
+[29/Jul/2018 09:39:29] INFO [django:24] handle time excution : 0.00429606437683 seconds
+[29/Jul/2018 09:39:29] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:39:29] INFO [django:24] handle time excution : 0.0026638507843 seconds
+[29/Jul/2018 09:39:29] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:39:29] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 24
+[29/Jul/2018 09:40:43] INFO [django:24] handle time excution : 0.00240111351013 seconds
+[29/Jul/2018 09:40:43] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:40:43] INFO [django:24] handle time excution : 0.00239205360413 seconds
+[29/Jul/2018 09:40:43] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:40:43] INFO [django:24] handle time excution : 0.00329685211182 seconds
+[29/Jul/2018 09:40:43] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 66
+[29/Jul/2018 09:41:52] INFO [django:24] handle time excution : 0.00716090202332 seconds
+[29/Jul/2018 09:41:52] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:41:52] INFO [django:24] handle time excution : 0.0023090839386 seconds
+[29/Jul/2018 09:41:52] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:41:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 09:42:33] INFO [django:24] handle time excution : 0.00455904006958 seconds
+[29/Jul/2018 09:42:33] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:42:33] INFO [django:24] handle time excution : 0.00250005722046 seconds
+[29/Jul/2018 09:42:33] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:42:33] INFO [django:24] handle time excution : 0.0022451877594 seconds
+[29/Jul/2018 09:42:33] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 66
+[29/Jul/2018 09:42:59] INFO [django:24] handle time excution : 0.00415992736816 seconds
+[29/Jul/2018 09:42:59] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:42:59] INFO [django:24] handle time excution : 0.00217914581299 seconds
+[29/Jul/2018 09:42:59] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:42:59] INFO [django:24] handle time excution : 0.00256204605103 seconds
+[29/Jul/2018 09:42:59] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:43:27] INFO [django:24] handle time excution : 0.00229406356812 seconds
+[29/Jul/2018 09:43:27] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:43:27] INFO [django:24] handle time excution : 0.00234794616699 seconds
+[29/Jul/2018 09:43:27] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:43:27] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 09:43:27] INFO [django:24] handle time excution : 0.0024881362915 seconds
+[29/Jul/2018 09:43:27] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:44:12] INFO [django:24] handle time excution : 0.00287103652954 seconds
+[29/Jul/2018 09:44:12] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:44:12] INFO [django:24] handle time excution : 0.00239396095276 seconds
+[29/Jul/2018 09:44:12] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:44:12] INFO [django:24] handle time excution : 7.79628753662e-05 seconds
+[29/Jul/2018 09:44:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:44:12] INFO [django:24] handle time excution : 0.0026478767395 seconds
+[29/Jul/2018 09:44:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:45:42] INFO [django:24] handle time excution : 0.00218510627747 seconds
+[29/Jul/2018 09:45:42] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:45:42] INFO [django:24] handle time excution : 0.00240278244019 seconds
+[29/Jul/2018 09:45:42] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:45:42] INFO [django:24] handle time excution : 7.58171081543e-05 seconds
+[29/Jul/2018 09:45:42] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:45:42] INFO [django:24] handle time excution : 0.005450963974 seconds
+[29/Jul/2018 09:45:42] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:45:42] INFO [django:24] handle time excution : 0.000109910964966 seconds
+[29/Jul/2018 09:45:42] INFO [django.server:124] "GET /admin/salt?user_id=1 HTTP/1.1" 200 60
+[29/Jul/2018 09:45:53] INFO [django:24] handle time excution : 0.00285577774048 seconds
+[29/Jul/2018 09:45:53] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:45:53] INFO [django:24] handle time excution : 0.00267791748047 seconds
+[29/Jul/2018 09:45:53] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:45:53] INFO [django:24] handle time excution : 7.48634338379e-05 seconds
+[29/Jul/2018 09:45:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:45:53] INFO [django:24] handle time excution : 0.00248789787292 seconds
+[29/Jul/2018 09:45:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:45:54] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:46:29] INFO [django:24] handle time excution : 0.00445008277893 seconds
+[29/Jul/2018 09:46:29] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:46:29] INFO [django:24] handle time excution : 0.00228500366211 seconds
+[29/Jul/2018 09:46:29] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:46:29] INFO [django:24] handle time excution : 8.9168548584e-05 seconds
+[29/Jul/2018 09:46:29] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:46:29] INFO [django:24] handle time excution : 0.0039541721344 seconds
+[29/Jul/2018 09:46:29] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:46:29] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:47:14] INFO [django:24] handle time excution : 0.0028657913208 seconds
+[29/Jul/2018 09:47:14] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:47:14] INFO [django:24] handle time excution : 0.00222206115723 seconds
+[29/Jul/2018 09:47:14] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:47:14] INFO [django:24] handle time excution : 7.91549682617e-05 seconds
+[29/Jul/2018 09:47:14] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:47:14] INFO [django:24] handle time excution : 0.00940084457397 seconds
+[29/Jul/2018 09:47:14] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:47:14] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:47:52] INFO [django:24] handle time excution : 0.00284814834595 seconds
+[29/Jul/2018 09:47:52] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:47:52] INFO [django:24] handle time excution : 0.00231981277466 seconds
+[29/Jul/2018 09:47:52] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:47:52] INFO [django:24] handle time excution : 8.9168548584e-05 seconds
+[29/Jul/2018 09:47:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:47:52] INFO [django:24] handle time excution : 0.00266814231873 seconds
+[29/Jul/2018 09:47:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:47:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:53:09] INFO [django:24] handle time excution : 0.00293397903442 seconds
+[29/Jul/2018 09:53:09] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:53:09] INFO [django:24] handle time excution : 0.00234293937683 seconds
+[29/Jul/2018 09:53:09] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:53:09] INFO [django:24] handle time excution : 9.70363616943e-05 seconds
+[29/Jul/2018 09:53:09] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:53:09] INFO [django:24] handle time excution : 0.00247716903687 seconds
+[29/Jul/2018 09:53:09] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:53:09] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:54:55] INFO [django:24] handle time excution : 0.00333905220032 seconds
+[29/Jul/2018 09:54:55] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:54:55] INFO [django:24] handle time excution : 0.00223803520203 seconds
+[29/Jul/2018 09:54:55] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:54:55] INFO [django:24] handle time excution : 8.79764556885e-05 seconds
+[29/Jul/2018 09:54:55] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:54:55] INFO [django:24] handle time excution : 0.00270915031433 seconds
+[29/Jul/2018 09:54:55] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:54:55] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 09:56:05] INFO [django:24] handle time excution : 0.00404286384583 seconds
+[29/Jul/2018 09:56:05] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:56:05] INFO [django:24] handle time excution : 0.00226211547852 seconds
+[29/Jul/2018 09:56:05] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:56:05] INFO [django:24] handle time excution : 8.10623168945e-05 seconds
+[29/Jul/2018 09:56:05] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:56:05] INFO [django:24] handle time excution : 0.00306415557861 seconds
+[29/Jul/2018 09:56:05] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:56:05] INFO [django:24] handle time excution : 0.000651121139526 seconds
+[29/Jul/2018 09:56:05] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 09:57:48] INFO [django:24] handle time excution : 0.00268197059631 seconds
+[29/Jul/2018 09:57:48] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 09:57:48] INFO [django:24] handle time excution : 0.00220799446106 seconds
+[29/Jul/2018 09:57:48] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 09:57:48] INFO [django:24] handle time excution : 0.000107049942017 seconds
+[29/Jul/2018 09:57:48] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 09:57:49] INFO [django:24] handle time excution : 0.00540089607239 seconds
+[29/Jul/2018 09:57:49] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 09:57:49] INFO [django:24] handle time excution : 0.000198125839233 seconds
+[29/Jul/2018 09:57:49] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 09:57:49] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:00:16] INFO [django:24] handle time excution : 0.00289511680603 seconds
+[29/Jul/2018 10:00:16] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:00:16] INFO [django:24] handle time excution : 0.0023820400238 seconds
+[29/Jul/2018 10:00:16] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:00:16] INFO [django:24] handle time excution : 9.70363616943e-05 seconds
+[29/Jul/2018 10:00:16] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:00:16] INFO [django:24] handle time excution : 0.00276780128479 seconds
+[29/Jul/2018 10:00:16] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:00:16] INFO [django:24] handle time excution : 0.000432968139648 seconds
+[29/Jul/2018 10:00:16] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:00:16] ERROR [django.request:135] Internal Server Error: /admin/get
+Traceback (most recent call last):
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/utils/deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+[29/Jul/2018 10:00:16] ERROR [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 500 61398
+[29/Jul/2018 10:00:35] INFO [django:24] handle time excution : 0.00275897979736 seconds
+[29/Jul/2018 10:00:35] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:00:35] INFO [django:24] handle time excution : 0.00214600563049 seconds
+[29/Jul/2018 10:00:35] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:00:35] INFO [django:24] handle time excution : 8.51154327393e-05 seconds
+[29/Jul/2018 10:00:35] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:00:35] INFO [django:24] handle time excution : 0.00233101844788 seconds
+[29/Jul/2018 10:00:35] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:00:35] INFO [django:24] handle time excution : 0.000118017196655 seconds
+[29/Jul/2018 10:00:35] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:00:35] ERROR [django.request:135] Internal Server Error: /admin/get
+Traceback (most recent call last):
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/utils/deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "/home/ducminh/.local/lib/python2.7/site-packages/django/middleware/common.py", line 115, in process_response
+    if response.status_code == 404:
+AttributeError: 'dict' object has no attribute 'status_code'
+[29/Jul/2018 10:00:35] ERROR [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 500 61398
+[29/Jul/2018 10:01:41] INFO [django:24] handle time excution : 0.00283002853394 seconds
+[29/Jul/2018 10:01:41] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:01:41] INFO [django:24] handle time excution : 0.00225591659546 seconds
+[29/Jul/2018 10:01:41] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:01:41] INFO [django:24] handle time excution : 8.48770141602e-05 seconds
+[29/Jul/2018 10:01:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:01:41] INFO [django:24] handle time excution : 0.00296497344971 seconds
+[29/Jul/2018 10:01:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:01:41] INFO [django:24] handle time excution : 0.000207901000977 seconds
+[29/Jul/2018 10:01:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:01:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:02:41] INFO [django:24] handle time excution : 0.00299692153931 seconds
+[29/Jul/2018 10:02:41] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:02:41] INFO [django:24] handle time excution : 0.00237917900085 seconds
+[29/Jul/2018 10:02:41] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:02:41] INFO [django:24] handle time excution : 8.60691070557e-05 seconds
+[29/Jul/2018 10:02:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:02:41] INFO [django:24] handle time excution : 0.00256609916687 seconds
+[29/Jul/2018 10:02:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:02:41] INFO [django:24] handle time excution : 0.000253915786743 seconds
+[29/Jul/2018 10:02:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:02:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:06:18] INFO [django:24] handle time excution : 0.00294899940491 seconds
+[29/Jul/2018 10:06:18] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:06:18] INFO [django:24] handle time excution : 0.00216197967529 seconds
+[29/Jul/2018 10:06:18] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:06:18] INFO [django:24] handle time excution : 0.000127077102661 seconds
+[29/Jul/2018 10:06:18] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:06:18] INFO [django:24] handle time excution : 0.00584888458252 seconds
+[29/Jul/2018 10:06:18] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:06:18] INFO [django:24] handle time excution : 0.000164985656738 seconds
+[29/Jul/2018 10:06:18] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:06:18] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:07:12] INFO [django:24] handle time excution : 0.00318717956543 seconds
+[29/Jul/2018 10:07:12] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:07:12] INFO [django:24] handle time excution : 0.00224590301514 seconds
+[29/Jul/2018 10:07:12] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:07:12] INFO [django:24] handle time excution : 8.29696655273e-05 seconds
+[29/Jul/2018 10:07:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:07:12] INFO [django:24] handle time excution : 0.00251507759094 seconds
+[29/Jul/2018 10:07:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:07:12] INFO [django:24] handle time excution : 0.000185966491699 seconds
+[29/Jul/2018 10:07:12] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:07:12] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:07:40] INFO [django:24] handle time excution : 0.00281596183777 seconds
+[29/Jul/2018 10:07:40] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:07:40] INFO [django:24] handle time excution : 0.0026228427887 seconds
+[29/Jul/2018 10:07:40] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:07:41] INFO [django:24] handle time excution : 7.89165496826e-05 seconds
+[29/Jul/2018 10:07:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:07:41] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:07:41] INFO [django:24] handle time excution : 0.000164031982422 seconds
+[29/Jul/2018 10:07:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:07:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:08:55] INFO [django:24] handle time excution : 0.00267505645752 seconds
+[29/Jul/2018 10:08:55] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:08:55] INFO [django:24] handle time excution : 0.00231599807739 seconds
+[29/Jul/2018 10:08:55] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:08:55] INFO [django:24] handle time excution : 7.79628753662e-05 seconds
+[29/Jul/2018 10:08:55] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:08:55] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:08:55] INFO [django:24] handle time excution : 0.000233888626099 seconds
+[29/Jul/2018 10:08:55] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:08:55] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:09:08] INFO [django:24] handle time excution : 0.00379014015198 seconds
+[29/Jul/2018 10:09:08] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:09:08] INFO [django:24] handle time excution : 0.00228595733643 seconds
+[29/Jul/2018 10:09:08] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:09:08] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:09:08] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:09:08] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:09:08] INFO [django:24] handle time excution : 0.00020694732666 seconds
+[29/Jul/2018 10:09:08] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:09:08] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:09:52] INFO [django:24] handle time excution : 0.00510597229004 seconds
+[29/Jul/2018 10:09:52] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:09:52] INFO [django:24] handle time excution : 0.0027289390564 seconds
+[29/Jul/2018 10:09:52] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:09:52] INFO [django:24] handle time excution : 0.000108003616333 seconds
+[29/Jul/2018 10:09:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:09:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:09:52] INFO [django:24] handle time excution : 0.000341892242432 seconds
+[29/Jul/2018 10:09:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:09:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:10:36] INFO [django:24] handle time excution : 0.00415420532227 seconds
+[29/Jul/2018 10:10:36] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:10:36] INFO [django:24] handle time excution : 0.00234794616699 seconds
+[29/Jul/2018 10:10:36] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:10:36] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:10:36] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:10:36] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:10:36] INFO [django:24] handle time excution : 0.000377893447876 seconds
+[29/Jul/2018 10:10:36] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:10:36] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:10:51] INFO [django:24] handle time excution : 0.00655794143677 seconds
+[29/Jul/2018 10:10:51] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:10:51] INFO [django:24] handle time excution : 0.00214195251465 seconds
+[29/Jul/2018 10:10:51] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:10:51] INFO [django:24] handle time excution : 8.01086425781e-05 seconds
+[29/Jul/2018 10:10:51] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:10:51] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:10:51] INFO [django:24] handle time excution : 0.000168800354004 seconds
+[29/Jul/2018 10:10:51] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:10:51] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:11:07] INFO [django:24] handle time excution : 0.00359416007996 seconds
+[29/Jul/2018 10:11:07] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:11:07] INFO [django:24] handle time excution : 0.00231003761292 seconds
+[29/Jul/2018 10:11:07] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:11:07] INFO [django:24] handle time excution : 0.000131130218506 seconds
+[29/Jul/2018 10:11:07] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:11:07] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:11:07] INFO [django:24] handle time excution : 0.000190019607544 seconds
+[29/Jul/2018 10:11:07] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:11:07] INFO [django:24] handle time excution : 0.00376605987549 seconds
+[29/Jul/2018 10:11:07] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:12:17] INFO [django.server:124] "POST /admin/create_event HTTP/1.1" 200 62
+[29/Jul/2018 10:12:59] INFO [django.server:124] "POST /admin/create_event HTTP/1.1" 200 62
+[29/Jul/2018 10:14:08] INFO [django.server:124] "POST /admin/create_event HTTP/1.1" 200 62
+[29/Jul/2018 10:14:35] INFO [django.server:124] "POST /admin/create_event HTTP/1.1" 200 62
+[29/Jul/2018 10:14:46] INFO [django.server:124] "POST /admin/create_event HTTP/1.1" 200 62
+[29/Jul/2018 10:15:09] INFO [django:24] handle time excution : 0.00141406059265 seconds
+[29/Jul/2018 10:15:09] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 70
+[29/Jul/2018 10:16:17] INFO [django:24] handle time excution : 0.00284004211426 seconds
+[29/Jul/2018 10:16:17] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:16:17] INFO [django:24] handle time excution : 0.00578999519348 seconds
+[29/Jul/2018 10:16:17] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:16:17] INFO [django:24] handle time excution : 8.20159912109e-05 seconds
+[29/Jul/2018 10:16:17] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:16:17] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:16:17] INFO [django:24] handle time excution : 0.000246047973633 seconds
+[29/Jul/2018 10:16:17] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:16:17] INFO [django:24] handle time excution : 0.00256085395813 seconds
+[29/Jul/2018 10:16:17] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:16:17] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 24
+[29/Jul/2018 10:16:28] INFO [django:24] handle time excution : 0.000231981277466 seconds
+[29/Jul/2018 10:16:28] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 70
+[29/Jul/2018 10:17:15] INFO [django:24] handle time excution : 0.0177299976349 seconds
+[29/Jul/2018 10:17:15] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 0.00592112541199 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 0.0029890537262 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 8.01086425781e-05 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:17:33] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 0.0001220703125 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 0.00237202644348 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:17:33] INFO [django:24] handle time excution : 0.0143549442291 seconds
+[29/Jul/2018 10:17:33] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 0.00672888755798 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 0.00221085548401 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 7.9870223999e-05 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:19:44] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 0.000158071517944 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 0.00365996360779 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:19:44] INFO [django:24] handle time excution : 0.00764107704163 seconds
+[29/Jul/2018 10:19:44] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:19:44] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 62
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 0.00297784805298 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 0.00247693061829 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 7.91549682617e-05 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:25:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 0.000147104263306 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 0.0122990608215 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:25:53] INFO [django:24] handle time excution : 0.00745010375977 seconds
+[29/Jul/2018 10:25:53] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:25:53] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 62
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 0.00283193588257 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 0.00209999084473 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 8.58306884766e-05 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:27:26] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 0.000174045562744 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 0.0130581855774 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:27:26] INFO [django:24] handle time excution : 0.0133118629456 seconds
+[29/Jul/2018 10:27:26] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:27:26] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 62
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 0.00274109840393 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 0.00229597091675 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 7.5101852417e-05 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:28:05] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 0.00018310546875 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 0.00364804267883 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:28:05] INFO [django:24] handle time excution : 0.00940704345703 seconds
+[29/Jul/2018 10:28:05] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:28:05] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 62
+[29/Jul/2018 10:29:28] INFO [django:24] handle time excution : 0.00282907485962 seconds
+[29/Jul/2018 10:29:28] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:29:28] INFO [django:24] handle time excution : 0.00212383270264 seconds
+[29/Jul/2018 10:29:28] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:29:29] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:29:29] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:29:29] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:29:29] INFO [django:24] handle time excution : 0.000365018844604 seconds
+[29/Jul/2018 10:29:29] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:29:29] INFO [django:24] handle time excution : 0.00354981422424 seconds
+[29/Jul/2018 10:29:29] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:29:29] INFO [django:24] handle time excution : 0.0107169151306 seconds
+[29/Jul/2018 10:29:29] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:29:29] INFO [django:24] handle time excution : 0.00174403190613 seconds
+[29/Jul/2018 10:29:29] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 192
+[29/Jul/2018 10:30:40] INFO [django:24] handle time excution : 0.00320196151733 seconds
+[29/Jul/2018 10:30:40] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:30:40] INFO [django:24] handle time excution : 0.00225114822388 seconds
+[29/Jul/2018 10:30:40] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:30:40] INFO [django:24] handle time excution : 0.000111103057861 seconds
+[29/Jul/2018 10:30:40] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:30:40] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:30:41] INFO [django:24] handle time excution : 0.000185966491699 seconds
+[29/Jul/2018 10:30:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:30:41] INFO [django:24] handle time excution : 0.00707793235779 seconds
+[29/Jul/2018 10:30:41] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:30:41] INFO [django:24] handle time excution : 0.0148420333862 seconds
+[29/Jul/2018 10:30:41] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:30:41] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 62
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.0027129650116 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.00467610359192 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.000103950500488 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:31:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.000175952911377 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.00474810600281 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.0113959312439 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:31:52] INFO [django:24] handle time excution : 0.00229215621948 seconds
+[29/Jul/2018 10:31:52] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 0.00386810302734 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 0.00210905075073 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:33:51] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 0.00721907615662 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 0.0105299949646 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:33:51] INFO [django:24] handle time excution : 0.00187110900879 seconds
+[29/Jul/2018 10:33:51] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 0.0045759677887 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 0.00217509269714 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 9.58442687988e-05 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:34:44] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 5.10215759277e-05 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 0.00915789604187 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 0.0221059322357 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:34:44] INFO [django:24] handle time excution : 0.00259208679199 seconds
+[29/Jul/2018 10:34:44] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 0.0027220249176 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 0.00237202644348 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 7.58171081543e-05 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:35:11] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 62
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 5.10215759277e-05 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 0.00506901741028 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 0.0228490829468 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:35:11] INFO [django:24] handle time excution : 0.00176692008972 seconds
+[29/Jul/2018 10:35:11] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.00275897979736 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.00266098976135 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.0001060962677 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.0124180316925 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 5.19752502441e-05 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.00666785240173 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.00547194480896 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:35:45] INFO [django:24] handle time excution : 0.00208401679993 seconds
+[29/Jul/2018 10:35:45] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.00280785560608 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.00254797935486 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.00379991531372 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 9.20295715332e-05 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.0138111114502 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.00730013847351 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:36:04] INFO [django:24] handle time excution : 0.00293302536011 seconds
+[29/Jul/2018 10:36:04] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00426387786865 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00528502464294 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 8.10623168945e-05 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00367903709412 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 7.9870223999e-05 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00737500190735 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.0254609584808 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00207996368408 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00495290756226 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 33
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 5.41210174561e-05 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 33
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 7.41481781006e-05 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 60
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 0.00253009796143 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:44:21] INFO [django:24] handle time excution : 7.20024108887e-05 seconds
+[29/Jul/2018 10:44:21] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00219798088074 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00528407096863 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 7.9870223999e-05 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00423812866211 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.0093309879303 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.0063910484314 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00186896324158 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00225400924683 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 4.91142272949e-05 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 33
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 9.29832458496e-05 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 60
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 0.00370693206787 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:44:52] INFO [django:24] handle time excution : 4.79221343994e-05 seconds
+[29/Jul/2018 10:44:52] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00269794464111 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00258493423462 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 7.41481781006e-05 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00588917732239 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.000214099884033 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00813293457031 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00755596160889 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00153398513794 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00649404525757 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00244092941284 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 7.70092010498e-05 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 60
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 0.00222110748291 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:46:14] INFO [django:24] handle time excution : 9.51290130615e-05 seconds
+[29/Jul/2018 10:46:14] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00274395942688 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00276899337769 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 7.91549682617e-05 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00543403625488 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 5.00679016113e-05 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00887107849121 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00467085838318 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00175189971924 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00205707550049 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00294589996338 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 9.67979431152e-05 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 60
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.00324201583862 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:47:46] INFO [django:24] handle time excution : 0.000294923782349 seconds
+[29/Jul/2018 10:47:46] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00427103042603 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00222611427307 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 9.41753387451e-05 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.0104100704193 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 6.89029693604e-05 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00631809234619 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.0136799812317 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00188612937927 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00210881233215 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00291299819946 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 7.5101852417e-05 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 60
+[29/Jul/2018 10:48:39] INFO [django:24] handle time excution : 0.00396013259888 seconds
+[29/Jul/2018 10:48:39] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:48:40] INFO [django:24] handle time excution : 6.48498535156e-05 seconds
+[29/Jul/2018 10:48:40] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00216698646545 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00235915184021 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 8.70227813721e-05 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00285911560059 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 6.60419464111e-05 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00288391113281 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.010792016983 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00220012664795 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00390315055847 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00596189498901 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00354194641113 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 0.00381779670715 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:49:04] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:49:04] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00255513191223 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00202989578247 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 7.48634338379e-05 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00410604476929 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 5.10215759277e-05 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00371193885803 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.0113201141357 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00212502479553 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00212717056274 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00220990180969 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00226998329163 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 0.00218987464905 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:22] INFO [django:24] handle time excution : 5.3882598877e-05 seconds
+[29/Jul/2018 10:50:22] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00243997573853 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00233507156372 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.000188112258911 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00294017791748 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.000110864639282 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00310301780701 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00382900238037 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00235486030579 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00277900695801 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00257086753845 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.0021698474884 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 0.00214910507202 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:43] INFO [django:24] handle time excution : 6.48498535156e-05 seconds
+[29/Jul/2018 10:50:43] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.00215101242065 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.00207614898682 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 8.89301300049e-05 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.00330281257629 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 5.48362731934e-05 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.00327801704407 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.0108940601349 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:50:53] INFO [django:24] handle time excution : 0.00156021118164 seconds
+[29/Jul/2018 10:50:53] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:50:54] INFO [django:24] handle time excution : 0.00304698944092 seconds
+[29/Jul/2018 10:50:54] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:50:54] INFO [django:24] handle time excution : 0.00230503082275 seconds
+[29/Jul/2018 10:50:54] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:50:54] INFO [django:24] handle time excution : 0.00216484069824 seconds
+[29/Jul/2018 10:50:54] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:54] INFO [django:24] handle time excution : 0.00568985939026 seconds
+[29/Jul/2018 10:50:54] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:50:54] INFO [django:24] handle time excution : 5.00679016113e-05 seconds
+[29/Jul/2018 10:50:54] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00235104560852 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00219416618347 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 7.79628753662e-05 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00287079811096 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 5.50746917725e-05 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00323700904846 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.0188961029053 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00194883346558 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00280380249023 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00213503837585 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00366806983948 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 0.00208806991577 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:03] INFO [django:24] handle time excution : 5.69820404053e-05 seconds
+[29/Jul/2018 10:51:03] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:47] INFO [django:24] handle time excution : 0.0027379989624 seconds
+[29/Jul/2018 10:51:47] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:47] INFO [django:24] handle time excution : 0.00209498405457 seconds
+[29/Jul/2018 10:51:47] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 9.79900360107e-05 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00374603271484 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 5.07831573486e-05 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00343990325928 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.0169651508331 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00257277488708 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00236415863037 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00666499137878 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00368595123291 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 0.00282907485962 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:48] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:51:48] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00315809249878 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00206112861633 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 7.60555267334e-05 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00298595428467 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 4.91142272949e-05 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00349521636963 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00623488426208 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00622701644897 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00235104560852 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00205111503601 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00513815879822 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.00223088264465 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:51:49] INFO [django:24] handle time excution : 0.000102996826172 seconds
+[29/Jul/2018 10:51:49] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 0.00289797782898 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 0.00218081474304 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 8.41617584229e-05 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 0.00320911407471 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 5.19752502441e-05 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:52:35] INFO [django:24] handle time excution : 0.00860977172852 seconds
+[29/Jul/2018 10:52:35] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 0.00773000717163 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 0.00160694122314 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 0.00240397453308 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 0.00224685668945 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 0.0034019947052 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:52:36] INFO [django:24] handle time excution : 5.07831573486e-05 seconds
+[29/Jul/2018 10:52:36] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00218200683594 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00203680992126 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 7.91549682617e-05 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00307106971741 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 6.31809234619e-05 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00229811668396 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00705504417419 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00144100189209 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00543403625488 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00228309631348 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 0.00256991386414 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:52:37] INFO [django:24] handle time excution : 6.98566436768e-05 seconds
+[29/Jul/2018 10:52:37] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00260901451111 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00209403038025 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 7.9870223999e-05 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.0041971206665 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 5.91278076172e-05 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00726795196533 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.017914056778 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.0023980140686 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00350499153137 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00725793838501 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00226593017578 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 0.00240397453308 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:53:00] INFO [django:24] handle time excution : 5.00679016113e-05 seconds
+[29/Jul/2018 10:53:00] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00284194946289 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00855493545532 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 9.48905944824e-05 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00637602806091 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 6.79492950439e-05 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00617384910583 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00585889816284 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00170612335205 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00718092918396 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00239706039429 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 62
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 0.00316715240479 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:54:01] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:54:01] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00302505493164 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00221395492554 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 8.29696655273e-05 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00507783889771 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 5.50746917725e-05 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00363206863403 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00952792167664 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00172996520996 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00280499458313 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.0025429725647 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00619387626648 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 0.00228309631348 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:54:39] INFO [django:24] handle time excution : 5.10215759277e-05 seconds
+[29/Jul/2018 10:54:39] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:03] INFO [django:24] handle time excution : 0.0022599697113 seconds
+[29/Jul/2018 10:56:03] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00211000442505 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.000214099884033 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00303101539612 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 5.50746917725e-05 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00273704528809 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.0097930431366 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00154209136963 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00701308250427 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00258684158325 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00319218635559 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.00234794616699 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 6.31809234619e-05 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:04] INFO [django:24] handle time excution : 0.000365018844604 seconds
+[29/Jul/2018 10:56:04] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 0.00241112709045 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 0.00222396850586 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 8.10623168945e-05 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 0.00296688079834 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 5.19752502441e-05 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:17] INFO [django:24] handle time excution : 0.00495386123657 seconds
+[29/Jul/2018 10:56:17] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.0078911781311 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.0016028881073 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.00215101242065 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.00238800048828 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.00850200653076 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 0.0020010471344 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:56:18] INFO [django:24] handle time excution : 4.88758087158e-05 seconds
+[29/Jul/2018 10:56:18] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:56:18] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 62
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00275206565857 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00227499008179 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 8.20159912109e-05 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00452399253845 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 5.81741333008e-05 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00551891326904 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00738382339478 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00163507461548 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00368309020996 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00214600563049 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00592494010925 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00533485412598 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 4.91142272949e-05 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:57:12] INFO [django:24] handle time excution : 0.00302410125732 seconds
+[29/Jul/2018 10:57:12] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00243592262268 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00207996368408 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 7.39097595215e-05 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00549483299255 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 5.19752502441e-05 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00822806358337 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.0199179649353 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00172019004822 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.0049250125885 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00295495986938 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00984311103821 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 10:59:34] INFO [django:24] handle time excution : 0.00196695327759 seconds
+[29/Jul/2018 10:59:34] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 10:59:35] INFO [django:24] handle time excution : 5.41210174561e-05 seconds
+[29/Jul/2018 10:59:35] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 10:59:35] INFO [django:24] handle time excution : 0.00334286689758 seconds
+[29/Jul/2018 10:59:35] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 11:08:07] INFO [django:24] handle time excution : 0.000359058380127 seconds
+[29/Jul/2018 11:08:07] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 70
+[29/Jul/2018 11:08:43] INFO [django:24] handle time excution : 0.000144958496094 seconds
+[29/Jul/2018 11:08:43] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 70
+[29/Jul/2018 11:08:49] INFO [django:24] handle time excution : 0.000144958496094 seconds
+[29/Jul/2018 11:08:49] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 70
+[29/Jul/2018 11:09:04] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 62
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00277709960938 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00215792655945 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /admin/salt?user_name=tran%20minh%20123 HTTP/1.1" 200 75
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.000110864639282 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 60
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.0045690536499 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 426
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 5.31673431396e-05 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.0107588768005 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00766682624817 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 33
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00163412094116 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 630
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00219488143921 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /visitor/create HTTP/1.1" 200 60
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00225186347961 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /visitor/salt?user_name=tran HTTP/1.1" 200 75
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00308799743652 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 841
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00222897529602 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "POST /visitor/login HTTP/1.1" 200 66
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 6.00814819336e-05 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 70
+[29/Jul/2018 11:10:27] INFO [django:24] handle time excution : 0.00253009796143 seconds
+[29/Jul/2018 11:10:27] INFO [django.server:124] "GET /visitor/get?user_id=1 HTTP/1.1" 200 472
+[29/Jul/2018 11:10:31] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 62
+[29/Jul/2018 11:11:16] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 62
+[29/Jul/2018 11:11:40] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 62
+[29/Jul/2018 11:12:28] INFO [django:24] handle time excution : 0.00324201583862 seconds
+[29/Jul/2018 11:12:28] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:19:20] INFO [django:24] handle time excution : 0.0018892288208 seconds
+[29/Jul/2018 11:19:20] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:20:19] INFO [django:24] handle time excution : 0.00186991691589 seconds
+[29/Jul/2018 11:20:19] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:21:40] INFO [django:24] handle time excution : 0.00314521789551 seconds
+[29/Jul/2018 11:21:40] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:22:32] INFO [django:24] handle time excution : 0.00179505348206 seconds
+[29/Jul/2018 11:22:32] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:27:09] INFO [django:24] handle time excution : 0.00652599334717 seconds
+[29/Jul/2018 11:27:09] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:27:27] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:27:27] WARNING [django.request:152] Not Found: /favicon.ico
+[29/Jul/2018 11:27:27] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 2074
+[29/Jul/2018 11:31:45] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:31:46] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:31:46] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:32:25] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:32:53] WARNING [django.server:124] "GET /static/static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 2030
+[29/Jul/2018 11:33:34] WARNING [django.request:152] Not Found: /static/static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png
+[29/Jul/2018 11:33:34] WARNING [django.server:124] "GET /static/static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 220
+[29/Jul/2018 11:33:38] WARNING [django.request:152] Not Found: /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png
+[29/Jul/2018 11:33:38] WARNING [django.server:124] "GET /static/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 213
+[29/Jul/2018 11:34:17] WARNING [django.request:152] Not Found: /static/2018-07-29/3ce925d0eae5f0a60af055866611a35fd94bb23579b970c33b4a5dffc626c7f24d857e16149b0cc21b0fdef282bb6a7d77393af76145b6635f7b2619bcbeac13.png
+[29/Jul/2018 11:34:17] WARNING [django.server:124] "GET /static/2018-07-29/3ce925d0eae5f0a60af055866611a35fd94bb23579b970c33b4a5dffc626c7f24d857e16149b0cc21b0fdef282bb6a7d77393af76145b6635f7b2619bcbeac13.png HTTP/1.1" 404 224
+[29/Jul/2018 11:34:25] WARNING [django.request:152] Not Found: /static/2018-07-29/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png
+[29/Jul/2018 11:34:25] WARNING [django.server:124] "GET /static/2018-07-29/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 224
+[29/Jul/2018 11:34:35] WARNING [django.request:152] Not Found: /static/static/2018-07-29/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png
+[29/Jul/2018 11:34:35] WARNING [django.server:124] "GET /static/static/2018-07-29/0917261bbc619cf74f956d0aa6fee36f9960d106d15647691035cde93fc8bd211f37839f0f6fdb20358dd05d554e74e86b93409f02c47b2e2647fcedb23d3f9c.png HTTP/1.1" 404 231
+[29/Jul/2018 11:35:13] WARNING [django.request:152] Not Found: /
+[29/Jul/2018 11:35:13] WARNING [django.server:124] "GET / HTTP/1.1" 404 74
+[29/Jul/2018 11:35:17] WARNING [django.request:152] Not Found: /
+[29/Jul/2018 11:35:17] WARNING [django.server:124] "GET / HTTP/1.1" 404 74
+[29/Jul/2018 11:35:56] WARNING [django.request:152] Not Found: /
+[29/Jul/2018 11:35:56] WARNING [django.server:124] "GET / HTTP/1.1" 404 74
+[29/Jul/2018 11:35:57] WARNING [django.request:152] Not Found: /
+[29/Jul/2018 11:35:57] WARNING [django.server:124] "GET / HTTP/1.1" 404 74
+[29/Jul/2018 11:36:09] WARNING [django.request:152] Not Found: /
+[29/Jul/2018 11:36:09] WARNING [django.server:124] "GET / HTTP/1.1" 404 2023
+[29/Jul/2018 11:36:15] WARNING [django.request:152] Not Found: /admin
+[29/Jul/2018 11:36:15] WARNING [django.server:124] "GET /admin HTTP/1.1" 404 2056
+[29/Jul/2018 11:36:26] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:36:39] WARNING [django.server:124] "GET /static/static/hihi.png HTTP/1.1" 404 1658
+[29/Jul/2018 11:39:08] WARNING [django.server:124] "GET /static/static/hihi.png HTTP/1.1" 404 1658
+[29/Jul/2018 11:39:09] WARNING [django.server:124] "GET /static/static/hihi.png HTTP/1.1" 404 1658
+[29/Jul/2018 11:39:10] WARNING [django.server:124] "GET /static/static/hihi.png HTTP/1.1" 404 1658
+[29/Jul/2018 11:39:10] WARNING [django.server:124] "GET /static/static/hihi.png HTTP/1.1" 404 1658
+[29/Jul/2018 11:39:14] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:04] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:06] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:07] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:07] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:12] INFO [django:24] handle time excution : 0.00343799591064 seconds
+[29/Jul/2018 11:43:12] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:43:43] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:44] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:43:44] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:45:08] INFO [django:24] handle time excution : 0.00361299514771 seconds
+[29/Jul/2018 11:45:08] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:45:17] WARNING [django.request:152] Not Found: /static/hihi.png
+[29/Jul/2018 11:45:17] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 89
+[29/Jul/2018 11:45:25] INFO [django:24] handle time excution : 0.000664949417114 seconds
+[29/Jul/2018 11:45:25] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:46:06] WARNING [django.request:152] Not Found: /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png
+[29/Jul/2018 11:46:06] WARNING [django.server:124] "GET /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png HTTP/1.1" 404 213
+[29/Jul/2018 11:46:08] WARNING [django.request:152] Not Found: /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png
+[29/Jul/2018 11:46:08] WARNING [django.server:124] "GET /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png HTTP/1.1" 404 213
+[29/Jul/2018 11:46:10] WARNING [django.request:152] Not Found: /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png
+[29/Jul/2018 11:46:10] WARNING [django.server:124] "GET /static/caf9b8befd39db3c958e48b268195ec26682fa38aedd35e439f1342532f47fd6bc130663ba77e78bc2d61e335b663de854d54e2a3e3c9b9c6e722f5c0d1d6e0d.png HTTP/1.1" 404 213
+[29/Jul/2018 11:46:30] INFO [django:24] handle time excution : 0.000887870788574 seconds
+[29/Jul/2018 11:46:30] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:46:50] WARNING [django.request:152] Not Found: /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png
+[29/Jul/2018 11:46:50] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 213
+[29/Jul/2018 11:47:39] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:41] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:41] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:42] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:45] INFO [django:24] handle time excution : 0.00484180450439 seconds
+[29/Jul/2018 11:47:45] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:47:50] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:51] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:51] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:51] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:51] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:47:52] WARNING [django.server:124] "GET /static/2d44a40ffd3fbc1fd205f87f9dae9ee3eeeed8a4018fb2ee1709253e6ad5da9688ee0739e8c449d9579b7863638976edf2da0925396a8b57516c27dae96005ca.png HTTP/1.1" 404 2009
+[29/Jul/2018 11:49:08] WARNING [django.server:124] "GET /static/hihi.png HTTP/1.1" 404 1637
+[29/Jul/2018 11:54:01] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:54:06] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:54:09] INFO [django:24] handle time excution : 0.00386095046997 seconds
+[29/Jul/2018 11:54:09] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 11:55:46] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:55:47] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:57:09] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:57:10] ERROR [django.server:124] "GET /static/hihi.png HTTP/1.1" 500 59
+[29/Jul/2018 11:57:22] INFO [django.server:124] "GET /static/hihi.png HTTP/1.1" 200 42
+[29/Jul/2018 11:57:26] INFO [django.server:124] "GET /static/hihi.png HTTP/1.1" 304 0
+[29/Jul/2018 11:57:39] INFO [django.server:124] "GET /static/hihi.png HTTP/1.1" 304 0
+[29/Jul/2018 11:57:59] INFO [django.server:124] "GET /static/hihi.png HTTP/1.1" 304 0
+[29/Jul/2018 11:57:59] INFO [django.server:124] "GET /static/hihi.png HTTP/1.1" 304 0
+[29/Jul/2018 11:58:30] INFO [django.server:124] "GET /static/2018-07-29/2cdd3a84c9f68900b819ba76525bc2e14fbe77399cf562ea059e5686163dba855faf28637751f7f8e9451e87e7778fe34c4589ec28588748a50065a92cd39779.png HTTP/1.1" 200 42
+[29/Jul/2018 11:58:36] WARNING [django.server:124] "GET /static/2018-07-29/2cdd3a84c9f6819ba76525bc2e14fbe77399cf562ea059e5686163dba855faf28637751f7f8e9451e87e7778fe34c4589ec28588748a50065a92cd39779.png HTTP/1.1" 404 2027
+[29/Jul/2018 11:59:36] INFO [django:24] handle time excution : 0.00174188613892 seconds
+[29/Jul/2018 11:59:36] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 33
+[29/Jul/2018 12:00:52] INFO [django:24] handle time excution : 0.00356197357178 seconds
+[29/Jul/2018 12:00:52] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 339
+[29/Jul/2018 12:01:55] INFO [django:24] handle time excution : 0.00370097160339 seconds
+[29/Jul/2018 12:01:55] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 198
