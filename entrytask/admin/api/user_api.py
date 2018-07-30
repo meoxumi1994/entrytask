@@ -9,6 +9,11 @@ from common.object_support import require, get_params
 import json, datetime
 from manager import user_manager, event_manager
 
+import string, random
+
+def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
+
 @handle_error
 @handle_json_response
 def create_admin(request):
@@ -24,6 +29,31 @@ def create_admin(request):
             return error(Error.USER_NAME_USED)
 
         user_manager.create(body)
+
+        return success({})
+
+@handle_error
+@handle_json_response
+def create_one_milion_admin(request):
+    if request.method == 'POST' :
+        body = json.loads(request.body)
+
+        for i in range(1000000) :
+            body['user_type'] = 'admin'
+
+            body['user_name'] = id_generator(12, "abcdefghijklmnopqrstuvwxyz")
+            body['password'] = id_generator(12, "abcdefghijklmnopqrstuvwxyz")
+
+            print(body['user_name'], body['password'])
+
+            req = require(body, ['user_name', 'password'])
+            if req:
+                return error(req)
+
+            if user_manager.check_user_name_is_used(body):
+                return error(Error.USER_NAME_USED)
+
+            user_manager.create(body)
 
         return success({})
 

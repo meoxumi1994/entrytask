@@ -8,11 +8,15 @@ def get(data):
     return user.values()[0]
 
 def create(data):
+    print(data)
+
     salt = uuid.uuid4().hex
     hashed_password = hashlib.sha512(data['password'] + salt).hexdigest()
     create_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     user = UserTab(password=hashed_password, create_time=create_time, salt=salt, user_type=data['user_type'])
     assign(user, data, ['user_name', 'email', 'address'])
+
+
     return user.save()
 
 def check_user_name_is_used(data):
@@ -20,8 +24,6 @@ def check_user_name_is_used(data):
         return cache.get(data['user_name'])
 
     user = UserTab.objects.filter(user_name=data['user_name'], user_type=data['user_type'])
-
-    print('CALL DATABASE')
 
     cache.set(data['user_name'], user)
     return user
