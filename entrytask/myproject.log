@@ -14563,3 +14563,67 @@ AttributeError: 'dict' object has no attribute 'status_code'
 [30/Jul/2018 07:58:25] INFO [django.server:124] "POST /admin/one_milion_admin HTTP/1.1" 200 33
 [30/Jul/2018 07:59:50] INFO [django:24] handle time excution : 0.549147844315 seconds
 [30/Jul/2018 07:59:50] INFO [django.server:124] "POST /admin/one_milion_admin HTTP/1.1" 200 33
+[30/Jul/2018 08:45:12] INFO [django:24] handle time excution : 0.0137300491333 seconds
+[30/Jul/2018 08:45:12] INFO [django.server:124] "POST /visitor/create_visitor HTTP/1.1" 200 60
+[30/Jul/2018 08:45:20] INFO [django:24] handle time excution : 0.015417098999 seconds
+[30/Jul/2018 08:45:20] INFO [django.server:124] "POST /visitor/create_visitor HTTP/1.1" 200 33
+[30/Jul/2018 08:45:34] INFO [django:24] handle time excution : 0.0141708850861 seconds
+[30/Jul/2018 08:45:34] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:45:50] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:45:55] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:46:44] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:48:41] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:50:22] INFO [django:24] handle time excution : 0.0161581039429 seconds
+[30/Jul/2018 08:50:22] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:50:25] INFO [django:24] handle time excution : 0.0101120471954 seconds
+[30/Jul/2018 08:50:25] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:50:34] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:50:35] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:50:58] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:51:12] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:52:20] INFO [django:24] handle time excution : 0.0231051445007 seconds
+[30/Jul/2018 08:52:20] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:52:55] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 08:53:34] INFO [django:24] handle time excution : 0.0249938964844 seconds
+[30/Jul/2018 08:53:34] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:53:51] INFO [django:24] handle time excution : 0.0232439041138 seconds
+[30/Jul/2018 08:53:51] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:53:53] INFO [django:24] handle time excution : 0.0212049484253 seconds
+[30/Jul/2018 08:53:53] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 08:54:23] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 09:00:14] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 09:00:38] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 09:02:44] INFO [django:24] handle time excution : 0.00738286972046 seconds
+[30/Jul/2018 09:02:44] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 423
+[30/Jul/2018 09:02:46] INFO [django:24] handle time excution : 0.00332903862 seconds
+[30/Jul/2018 09:02:46] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 423
+[30/Jul/2018 09:03:50] INFO [django:24] handle time excution : 0.0151178836823 seconds
+[30/Jul/2018 09:03:50] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 423
+[30/Jul/2018 09:03:53] INFO [django:24] handle time excution : 0.0126678943634 seconds
+[30/Jul/2018 09:03:53] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:03:55] INFO [django:24] handle time excution : 0.0111861228943 seconds
+[30/Jul/2018 09:03:55] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:04:00] INFO [django:24] handle time excution : 0.00987911224365 seconds
+[30/Jul/2018 09:04:00] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:04:01] INFO [django:24] handle time excution : 0.00984692573547 seconds
+[30/Jul/2018 09:04:01] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:09:54] INFO [django:24] handle time excution : 0.0211589336395 seconds
+[30/Jul/2018 09:09:54] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:09:55] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 09:09:55] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 62
+[30/Jul/2018 09:12:07] INFO [django:24] handle time excution : 0.00299286842346 seconds
+[30/Jul/2018 09:12:07] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:12:08] INFO [django:24] handle time excution : 0.000823974609375 seconds
+[30/Jul/2018 09:12:08] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:12:09] INFO [django:24] handle time excution : 0.00100898742676 seconds
+[30/Jul/2018 09:12:09] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:12:09] INFO [django:24] handle time excution : 0.000969171524048 seconds
+[30/Jul/2018 09:12:09] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:12:10] INFO [django:24] handle time excution : 0.000952005386353 seconds
+[30/Jul/2018 09:12:10] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:13:04] INFO [django:24] handle time excution : 0.014004945755 seconds
+[30/Jul/2018 09:13:04] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:13:08] INFO [django:24] handle time excution : 0.0133068561554 seconds
+[30/Jul/2018 09:13:08] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66
+[30/Jul/2018 09:13:09] INFO [django:24] handle time excution : 0.00084400177002 seconds
+[30/Jul/2018 09:13:09] INFO [django.server:124] "POST /admin/login_admin HTTP/1.1" 200 66

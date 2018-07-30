@@ -88,6 +88,7 @@ def login_admin(request):
         body['user_type'] = 'admin'
         user = user_manager.verify(body)
 
+        print(user)
         if not user :
             return error(Error.WRONG_USER_NAME_OR_PASSWORD)
 
