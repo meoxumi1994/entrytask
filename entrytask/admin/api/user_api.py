@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from manager import user_manager, event_manager
 from common.auth import auth_admin, get_admin_access_token
 from common.handle_support import handle_auth_admin, handle_error, handle_json_response
 from common.error_support import Error
 from common.response_handle import success, error
-from common.object_support import require, get_params
+from common.object_support import require, get_params, id_generator
 import json, datetime
-from manager import user_manager, event_manager
 
-import string, random
-
-def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
-    return ''.join(random.choice(chars) for _ in range(size))
 
 @handle_error
 @handle_json_response
@@ -43,8 +39,6 @@ def create_one_milion_admin(request):
 
             body['user_name'] = id_generator(12, "abcdefghijklmnopqrstuvwxyz")
             body['password'] = id_generator(12, "abcdefghijklmnopqrstuvwxyz")
-
-            print(body['user_name'], body['password'])
 
             req = require(body, ['user_name', 'password'])
             if req:
@@ -88,7 +82,6 @@ def login_admin(request):
         body['user_type'] = 'admin'
         user = user_manager.verify(body)
 
-        print(user)
         if not user :
             return error(Error.WRONG_USER_NAME_OR_PASSWORD)
 

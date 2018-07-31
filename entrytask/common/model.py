@@ -5,7 +5,7 @@ from django.db import models
 
 class CategoryTab(models.Model):
     category_name = models.CharField(max_length=255, blank=True, null=True)
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
     description = models.CharField(max_length=255, blank=True, null=True)
     category_photo = models.CharField(max_length=255, blank=True, null=True)
 
@@ -15,7 +15,7 @@ class CategoryTab(models.Model):
 
 
 class CommentTab(models.Model):
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
     user = models.ForeignKey('UserTab', models.DO_NOTHING)
     event = models.ForeignKey('EventTab', models.DO_NOTHING)
     content = models.CharField(max_length=512, blank=True, null=True)
@@ -25,20 +25,19 @@ class CommentTab(models.Model):
         db_table = 'comment_tab'
 
 
-class DescriptionTab(models.Model):
-    description = models.CharField(max_length=512, blank=True, null=True)
-    creat_time = models.DateTimeField(blank=True, null=True)
-    event = models.ForeignKey('EventTab', models.DO_NOTHING)
+class DjangoMigrations(models.Model):
+    app = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    applied = models.DateTimeField()
 
     class Meta:
         managed = False
-        db_table = 'description_tab'
+        db_table = 'django_migrations'
 
 
 class EventCategoryTab(models.Model):
     event = models.ForeignKey('EventTab', models.DO_NOTHING)
     category = models.ForeignKey(CategoryTab, models.DO_NOTHING)
-    create_time = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -47,8 +46,8 @@ class EventCategoryTab(models.Model):
 
 class EventTab(models.Model):
     create_by = models.ForeignKey('UserTab', models.DO_NOTHING, db_column='create_by')
-    create_time = models.DateTimeField(blank=True, null=True)
-    event_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
+    event_time = models.IntegerField(blank=True, null=True)
     location = models.CharField(max_length=255, blank=True, null=True)
     title = models.CharField(max_length=255, blank=True, null=True)
     description = models.CharField(max_length=2048, blank=True, null=True)
@@ -61,8 +60,6 @@ class EventTab(models.Model):
 class EventTagTab(models.Model):
     event = models.ForeignKey(EventTab, models.DO_NOTHING)
     tag = models.ForeignKey('TagTab', models.DO_NOTHING)
-    create_by = models.IntegerField()
-    create_time = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -70,7 +67,7 @@ class EventTagTab(models.Model):
 
 
 class LikeTab(models.Model):
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
     user = models.ForeignKey('UserTab', models.DO_NOTHING)
     event = models.ForeignKey(EventTab, models.DO_NOTHING)
     type = models.CharField(max_length=255, blank=True, null=True)
@@ -83,7 +80,7 @@ class LikeTab(models.Model):
 class ParticipantTab(models.Model):
     user = models.ForeignKey('UserTab', models.DO_NOTHING)
     event = models.ForeignKey(EventTab, models.DO_NOTHING)
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -93,7 +90,7 @@ class ParticipantTab(models.Model):
 class PhotoTab(models.Model):
     photo_url = models.CharField(max_length=255, blank=True, null=True)
     photo_content = models.CharField(max_length=255, blank=True, null=True)
-    creat_time = models.DateTimeField(blank=True, null=True)
+    creat_time = models.IntegerField(blank=True, null=True)
     event = models.ForeignKey(EventTab, models.DO_NOTHING)
 
     class Meta:
@@ -103,7 +100,7 @@ class PhotoTab(models.Model):
 
 class TagTab(models.Model):
     tag_name = models.CharField(max_length=255, blank=True, null=True)
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -114,7 +111,7 @@ class UserTab(models.Model):
     user_name = models.CharField(max_length=255)
     password = models.CharField(max_length=255)
     address = models.CharField(max_length=255, blank=True, null=True)
-    create_time = models.DateTimeField(blank=True, null=True)
+    create_time = models.IntegerField(blank=True, null=True)
     full_name = models.CharField(max_length=255, blank=True, null=True)
     is_active = models.IntegerField(blank=True, null=True)
     user_type = models.CharField(max_length=255, blank=True, null=True)

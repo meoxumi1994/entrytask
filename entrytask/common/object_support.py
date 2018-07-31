@@ -1,3 +1,5 @@
+import string, random
+
 
 def assign(md, body, list_att):
     for att in list_att :
@@ -15,5 +17,8 @@ def get_params(request):
     for key in request.GET.iterkeys():
         body[key] = request.GET.get(key)
     return body
+
+def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 
 __All__ = []

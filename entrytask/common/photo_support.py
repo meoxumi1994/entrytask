@@ -14,7 +14,9 @@ def add_photo(imgstring):
     hash_image_name = hashlib.sha512(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + salt).hexdigest()
 
     img_data = b''+ imgstring.split(';')[1].split(',')[1]
-    url = path_d + '/' + hash_image_name + ".png"
+    e_name = imgstring.split(';')[0].split('/')[1]
+
+    url = path_d + '/' + hash_image_name + "." + e_name
 
     fh = open( url, "wb")
     fh.write(img_data.decode('base64'))
