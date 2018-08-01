@@ -73,8 +73,7 @@ def login_visitor(request):
         })
 
         return success({
-                'access_token': access_token,
-                'user' : user
+                'access_token': access_token
             })
 
 @handle_error
