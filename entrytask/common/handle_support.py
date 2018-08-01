@@ -21,13 +21,16 @@ def handle_error(f):
         try:
             start_time = time.time()
             response = f(request)
-            logger.info("handle time excution : %s seconds" % (time.time() - start_time))
+            logger.INFO("200 SUCCESS handle time excution : %s seconds" % (time.time() - start_time))
         except ValueError :
+            logger.error(Error.VALUE)
             return JsonResponse({ 'error': Error.VALUE }, safe=False)
         except OSError :
+            logger.error(Error.OS)
             return JsonResponse({ 'error': Error.OS }, safe=False)
         except :
-            print(traceback.print_exc(file=sys.stdout))
+            logger.error(traceback.print_exc(file=sys.stdout))
+            # print(traceback.print_exc(file=sys.stdout))
             return JsonResponse({ 'error': Error.CANNT_HANDLE }, safe=False)
         return response
     return wrapper
@@ -58,7 +61,7 @@ def handle_time(f):
     def wrapper(request):
         start_time = time.time()
         response = f(request)
-        print("--- %s seconds ---" % (time.time() - start_time))
+        # print("--- %s seconds ---" % (time.time() - start_time))
         return response
     return wrapper
 
