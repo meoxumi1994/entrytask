@@ -1,9 +1,9 @@
 from common.model import ParticipantTab
 from common.object_support import assign
-import datetime
+import datetime, time
 
 def create(data):
-    create_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    create_time = int(time.time())
     participant = ParticipantTab(
         user_id=data['user_id'],
         event_id=data["event_id"],
@@ -13,8 +13,8 @@ def create(data):
 def get_by_event(data):
     participants = ParticipantTab.objects.filter(
         event_id=data["event_id"],
-        create_time__level__lte=data['last_time'])[:data['limit']]
-    return participants
+        create_time__lte=data['last_time'])[:data['limit']].values()
+    return list(participants)
 
 def get_total(data):
     participants = ParticipantTab.objects.filter(
@@ -24,5 +24,5 @@ def get_total(data):
 def get_by_user(data):
     participants = ParticipantTab.objects.filter(
         user_id=data["user_id"],
-        create_time__level__lte=data['last_time'])[:data['limit']]
-    return participants
+        create_time__lte=data['last_time'])[:data['limit']].values()
+    return list(participants)

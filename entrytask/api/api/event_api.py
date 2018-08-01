@@ -57,32 +57,11 @@ def search_by_tag(request, user_id):
 @handle_error
 @handle_json_response
 @handle_auth_visitor
-def search_by_category(request, user_id):
+def search(request, user_id):
     if request.method == 'GET':
         body = get_params(request)
 
-        req = require(body, ['category_id'])
-        if req:
-            return error(req)
-
-        events = event_manager.search_by_category(body)
-
-        return success({
-            'events' : events
-        })
-
-@handle_error
-@handle_json_response
-@handle_auth_visitor
-def search_by_event_time(request, user_id):
-    if request.method == 'GET':
-        body = get_params(request)
-
-        req = require(body, ['start_time', 'end_time'])
-        if req:
-            return error(req)
-
-        events = event_manager.search_by_event_time(body)
+        events = event_manager.search(body)
 
         return success({
             'events' : events

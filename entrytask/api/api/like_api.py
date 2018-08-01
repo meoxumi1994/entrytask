@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from common.handle_support import handle_error, handle_auth_visitor, handle_json_response
-from common.object_support import assign, require
+from common.object_support import assign, require, get_params
 from common.response_handle import error, success
 from common.error_support import Error
 import json
@@ -13,10 +13,10 @@ from manager import user_manager, event_manager, like_manager
 @handle_auth_visitor
 def create(request, user_id):
     if request.method == 'POST' :
+
         body = json.loads(request.body)
 
         body['user_id'] = user_id
-
         like_manager.create(body)
         return success({})
 
@@ -25,8 +25,8 @@ def create(request, user_id):
 @handle_json_response
 @handle_auth_visitor
 def get_like_by_event(request, user_id):
-    if request.method == 'POST' :
-        body = json.loads(request.body)
+    if request.method == 'GET' :
+        body = get_params(request)
 
         req = require(body, ['last_time', 'event_id', 'limit'])
         if req :

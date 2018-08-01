@@ -16177,3 +16177,137 @@ AttributeError: 'dict' object has no attribute 'status_code'
 [31/Jul/2018 08:12:30] INFO [django.server:124] "GET /api/event_search_by_category?category_id=1 HTTP/1.1" 200 45
 [31/Jul/2018 08:12:33] INFO [django:24] handle time excution : 0.00244903564453 seconds
 [31/Jul/2018 08:12:33] INFO [django.server:124] "GET /api/event_search_by_event_time?start_time=1533024509&end_time=1533024509 HTTP/1.1" 200 195
+[01/Aug/2018 03:02:02] INFO [django:24] handle time excution : 0.000388145446777 seconds
+[01/Aug/2018 03:02:02] INFO [django.server:124] "GET /api/comment HTTP/1.1" 200 70
+[01/Aug/2018 03:03:45] INFO [django:24] handle time excution : 0.00053596496582 seconds
+[01/Aug/2018 03:03:45] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 70
+[01/Aug/2018 03:04:16] INFO [django:24] handle time excution : 0.0040819644928 seconds
+[01/Aug/2018 03:04:16] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 58
+[01/Aug/2018 03:04:35] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 24
+[01/Aug/2018 03:05:03] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 24
+[01/Aug/2018 03:05:58] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 62
+[01/Aug/2018 03:07:46] INFO [django:24] handle time excution : 0.012717962265 seconds
+[01/Aug/2018 03:07:46] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[01/Aug/2018 03:07:46] INFO [django:24] handle time excution : 0.00616908073425 seconds
+[01/Aug/2018 03:07:46] INFO [django.server:124] "POST /admin/create HTTP/1.1" 200 60
+[01/Aug/2018 03:07:46] INFO [django:24] handle time excution : 0.000550031661987 seconds
+[01/Aug/2018 03:07:46] INFO [django.server:124] "GET /admin/salt?user_name=meoxumi1994 HTTP/1.1" 200 75
+[01/Aug/2018 03:07:46] INFO [django:24] handle time excution : 0.0193660259247 seconds
+[01/Aug/2018 03:07:46] INFO [django.server:124] "POST /admin/login HTTP/1.1" 200 64
+[01/Aug/2018 03:07:46] INFO [django:24] handle time excution : 6.50882720947e-05 seconds
+[01/Aug/2018 03:07:46] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.00605797767639 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /admin/get?user_id=1 HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000458955764771 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "POST /admin/event HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000238180160522 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /admin/category HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000240087509155 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "POST /admin/photo HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.0167620182037 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "POST /api/create HTTP/1.1" 200 60
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000506162643433 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/salt?user_name=tran HTTP/1.1" 200 75
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000746011734009 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 827
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.00786805152893 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 64
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 5.19752502441e-05 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/get?user_id=1 HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.000234842300415 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/get?user_id=1 HTTP/1.1" 200 70
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.0084388256073 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/event_get_by_id?event_id=1 HTTP/1.1" 200 192
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.00971794128418 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/event_search_by_tag?tag_name=coffee HTTP/1.1" 200 45
+[01/Aug/2018 03:07:47] INFO [django:24] handle time excution : 0.00851082801819 seconds
+[01/Aug/2018 03:07:47] INFO [django.server:124] "GET /api/event_search_by_event_time?start_time=1533024509&end_time=1533024509 HTTP/1.1" 200 195
+[01/Aug/2018 03:08:15] INFO [django:24] handle time excution : 0.00722312927246 seconds
+[01/Aug/2018 03:08:15] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 33
+[01/Aug/2018 03:10:39] INFO [django:24] handle time excution : 0.000328063964844 seconds
+[01/Aug/2018 03:10:39] INFO [django.server:124] "GET /api/comment HTTP/1.1" 200 70
+[01/Aug/2018 03:10:48] INFO [django:24] handle time excution : 0.0118761062622 seconds
+[01/Aug/2018 03:10:48] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 33
+[01/Aug/2018 03:10:50] INFO [django:24] handle time excution : 0.00357794761658 seconds
+[01/Aug/2018 03:10:50] INFO [django.server:124] "POST /api/comment HTTP/1.1" 200 33
+[01/Aug/2018 03:15:21] INFO [django:24] handle time excution : 0.00176286697388 seconds
+[01/Aug/2018 03:15:21] INFO [django.server:124] "GET /api/get_comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 58
+[01/Aug/2018 03:16:03] INFO [django:24] handle time excution : 0.00170111656189 seconds
+[01/Aug/2018 03:16:03] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 33
+[01/Aug/2018 03:16:34] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:17:06] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:18:05] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:18:54] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:19:50] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:20:03] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:20:42] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:21:09] INFO [django:24] handle time excution : 0.0153510570526 seconds
+[01/Aug/2018 03:21:09] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 219
+[01/Aug/2018 03:21:16] INFO [django:24] handle time excution : 0.00348591804504 seconds
+[01/Aug/2018 03:21:16] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093048&limit=10 HTTP/1.1" 200 132
+[01/Aug/2018 03:21:21] INFO [django:24] handle time excution : 0.0108368396759 seconds
+[01/Aug/2018 03:21:21] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 219
+[01/Aug/2018 03:23:47] INFO [django:24] handle time excution : 0.0140671730042 seconds
+[01/Aug/2018 03:23:47] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 33
+[01/Aug/2018 03:24:30] INFO [django:24] handle time excution : 0.0121350288391 seconds
+[01/Aug/2018 03:24:30] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 33
+[01/Aug/2018 03:25:25] INFO [django:24] handle time excution : 0.000259876251221 seconds
+[01/Aug/2018 03:25:25] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 33
+[01/Aug/2018 03:26:06] INFO [django:24] handle time excution : 0.00155591964722 seconds
+[01/Aug/2018 03:26:06] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 33
+[01/Aug/2018 03:26:23] INFO [django:24] handle time excution : 0.000246047973633 seconds
+[01/Aug/2018 03:26:23] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 33
+[01/Aug/2018 03:27:20] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 03:27:37] INFO [django:24] handle time excution : 0.0134718418121 seconds
+[01/Aug/2018 03:27:37] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 123
+[01/Aug/2018 03:28:26] INFO [django:24] handle time excution : 0.0112638473511 seconds
+[01/Aug/2018 03:28:26] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 44
+[01/Aug/2018 03:28:59] INFO [django:24] handle time excution : 0.000259876251221 seconds
+[01/Aug/2018 03:28:59] INFO [django.server:124] "GET /api/like HTTP/1.1" 200 33
+[01/Aug/2018 03:29:14] INFO [django:24] handle time excution : 0.00366878509521 seconds
+[01/Aug/2018 03:29:14] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 123
+[01/Aug/2018 03:29:54] INFO [django:24] handle time excution : 0.0117559432983 seconds
+[01/Aug/2018 03:29:54] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 219
+[01/Aug/2018 03:29:56] INFO [django:24] handle time excution : 0.00767183303833 seconds
+[01/Aug/2018 03:29:56] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 33
+[01/Aug/2018 03:29:58] INFO [django:24] handle time excution : 0.0248408317566 seconds
+[01/Aug/2018 03:29:58] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 123
+[01/Aug/2018 03:32:07] INFO [django:24] handle time excution : 0.0110800266266 seconds
+[01/Aug/2018 03:32:07] INFO [django.server:124] "POST /api/participant HTTP/1.1" 200 33
+[01/Aug/2018 03:33:16] INFO [django:24] handle time excution : 0.000292062759399 seconds
+[01/Aug/2018 03:33:16] INFO [django.server:124] "GET /api/participant_by_event?event_id=1&last_time=1533094327&limit=10 HTTP/1.1" 200 33
+[01/Aug/2018 03:33:39] INFO [django:24] handle time excution : 0.0117621421814 seconds
+[01/Aug/2018 03:33:39] INFO [django.server:124] "GET /api/participant_by_event?event_id=1&last_time=1533094327&limit=10 HTTP/1.1" 200 116
+[01/Aug/2018 03:57:27] INFO [django:24] handle time excution : 0.0117452144623 seconds
+[01/Aug/2018 03:57:27] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 47
+[01/Aug/2018 03:57:31] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 62
+[01/Aug/2018 03:59:09] INFO [django:24] handle time excution : 0.00328397750854 seconds
+[01/Aug/2018 03:59:09] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 47
+[01/Aug/2018 03:59:17] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 62
+[01/Aug/2018 04:00:03] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 62
+[01/Aug/2018 04:02:01] INFO [django:24] handle time excution : 9.20295715332e-05 seconds
+[01/Aug/2018 04:02:01] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 60
+[01/Aug/2018 04:02:31] INFO [django:24] handle time excution : 0.00971484184265 seconds
+[01/Aug/2018 04:02:31] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 64
+[01/Aug/2018 04:03:01] INFO [django:24] handle time excution : 0.00835299491882 seconds
+[01/Aug/2018 04:03:01] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 64
+[01/Aug/2018 04:03:37] INFO [django:24] handle time excution : 0.0121288299561 seconds
+[01/Aug/2018 04:03:37] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 64
+[01/Aug/2018 04:04:10] INFO [django:24] handle time excution : 0.00765895843506 seconds
+[01/Aug/2018 04:04:10] INFO [django.server:124] "POST /api/login HTTP/1.1" 200 522
+[01/Aug/2018 04:04:21] INFO [django:24] handle time excution : 0.0150249004364 seconds
+[01/Aug/2018 04:04:21] INFO [django.server:124] "GET /api/comment_by_event?event_id=1&last_time=1533093050&limit=10 HTTP/1.1" 200 47
+[01/Aug/2018 04:04:24] INFO [django:24] handle time excution : 0.00513792037964 seconds
+[01/Aug/2018 04:04:24] INFO [django.server:124] "POST /api/like HTTP/1.1" 200 33
+[01/Aug/2018 04:04:31] INFO [django:24] handle time excution : 0.00300788879395 seconds
+[01/Aug/2018 04:04:31] INFO [django.server:124] "GET /api/like_by_event?event_id=1&last_time=1533093827&limit=10 HTTP/1.1" 200 44
+[01/Aug/2018 04:04:36] INFO [django:24] handle time excution : 0.00432300567627 seconds
+[01/Aug/2018 04:04:36] INFO [django.server:124] "POST /api/participant HTTP/1.1" 200 33
+[01/Aug/2018 04:04:40] INFO [django:24] handle time excution : 0.00557398796082 seconds
+[01/Aug/2018 04:04:40] INFO [django.server:124] "GET /api/participant_by_event?event_id=1&last_time=1533094327&limit=10 HTTP/1.1" 200 51
+[01/Aug/2018 04:29:11] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 62
+[01/Aug/2018 04:29:37] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 62
+[01/Aug/2018 04:29:51] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 62
+[01/Aug/2018 04:30:03] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 62
+[01/Aug/2018 04:30:24] INFO [django:24] handle time excution : 7.89734482765 seconds
+[01/Aug/2018 04:30:24] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 33

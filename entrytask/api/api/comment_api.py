@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from common.model import CategoryTab, UserTab, CommentTab, EventTab, LikeTab, ParticipantTab
 from common.handle_support import handle_error, handle_auth_visitor, handle_json_response
-from common.object_support import assign, require
+from common.object_support import assign, require, get_params
 from common.error_support import Error
 from common.response_handle import error, success
 import json
@@ -17,6 +17,10 @@ def create(request, user_id):
     if request.method == 'POST' :
         body = json.loads(request.body)
 
+        req = require(body, ['content', 'event_id'])
+        if req:
+            return error(req)
+
         body['user_id'] = user_id
 
         comment_manager.create(body)
@@ -27,8 +31,8 @@ def create(request, user_id):
 @handle_json_response
 @handle_auth_visitor
 def get_comment_by_event(request, user_id):
-    if request.method == 'POST' :
-        body = json.loads(request.body)
+    if request.method == 'GET' :
+        body = get_params(request)
 
         req = require(body, ['last_time', 'event_id', 'limit'])
         if req :

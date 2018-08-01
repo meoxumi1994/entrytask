@@ -10,10 +10,13 @@ urlpatterns = [
 
     url(r'^event_get_by_id', event_api.get_by_id, name="event_get_by_id"),
     url(r'^event_search_by_tag', event_api.search_by_tag, name="search_by_tag"),
-    url(r'^event_search_by_category', event_api.search_by_category, name="search_by_category"),
-    url(r'^event_search_by_event_time', event_api.search_by_event_time, name="search_by_event_time"),
+    url(r'^event_search', event_api.search, name="event_search"),
 
+    url(r'^comment_by_event', comment_api.get_comment_by_event, name='get_comment_by_event'),
     url(r'^comment', comment_api.create, name='create comment'),
+
+    url(r'^like_by_event', like_api.get_like_by_event, name="get_like_by_event"),
     url(r'^like', like_api.create, name='create like'),
+    url(r'^participant_by_event', participant_api.get_participant_by_event, name='participant_by_event'),
     url(r'^participant', participant_api.create, name='create participant')
 ]

@@ -53,6 +53,14 @@ def create_one_milion_admin(request):
 
 @handle_error
 @handle_json_response
+def ct_5000_admin(request):
+    if request.method == 'GET':
+        user_manager.create_5000()
+        return success({})
+
+
+@handle_error
+@handle_json_response
 def get_salt(request):
     if request.method == 'GET' :
         body = get_params(request)

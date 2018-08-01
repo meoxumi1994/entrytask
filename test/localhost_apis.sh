@@ -115,7 +115,7 @@ curl -X POST \
       -H 'Postman-Token: bbc73dd3-a3fc-49a4-97b6-dac25ea563cf' \
       -d '{
         "user_name" : "tran",
-        "password" : "4d46452a1bb2726f3fd9ee394aa0bfa5364c57f931267c70e9bd5e2d9f755ec6a0b2b6bc68e14ddfe50462f0fb9ba26c540bcb23de16dcf81ad43a40d92d4893"
+        "password" : "c1007466d3e4c390f940a24a0f8738ce53e1b3f2016ea6c4a502ffca51c067e8ee7d162b4058ee2dfc22dc0d64762a9168d446fdfb241cb164290da04a12d9c9"
     }'
 echo
 
@@ -126,7 +126,7 @@ curl -X POST \
       -H 'Postman-Token: bbc73dd3-a3fc-49a4-97b6-dac25ea563cf' \
       -d '{
         "user_name" : "tran minh 12 13",
-        "password" : "123456_hihi"
+        "password" : "c1007466d3e4c390f940a24a0f8738ce53e1b3f2016ea6c4a502ffca51c067e8ee7d162b4058ee2dfc22dc0d64762a9168d446fdfb241cb164290da04a12d9c9"
     }'
 echo
 
