@@ -18,5 +18,4 @@ urlpatterns = [
     url(r'^photo', photo_api.photo, name='photo'),
     url(r'^one_milion_admin', user_api.create_one_milion_admin, name='create_one_milion_admin')
 
-
 ]

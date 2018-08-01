@@ -6,3 +6,11 @@ sudo systemctl start nginx
 sudo systemctl enable uwsgi
 sudo systemctl enable nginx
 echo
+
+systemctl stop nginx
+systemctl stop uwsgi
+systemctl start uwsgi
+systemctl start nginx
+systemctl enable uwsgi
+systemctl enable nginx
+echo

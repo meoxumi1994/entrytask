@@ -9,6 +9,6 @@ class Error(object):
     WRONG_PASSWORD = 'wrong password'
     MISSING_EVENT_TIME = 'missing event time'
     MISSING_USER_NAME = 'missing user name'
-    WRONG_USER_NAME_OR_PASSWORD = 'wrong user_name has been used'
+    WRONG_USER_NAME_OR_PASSWORD = 'wrong user_name or password'
 
 __All__ = ['Error']

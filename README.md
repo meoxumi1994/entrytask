@@ -353,10 +353,7 @@ open mysql and run file sql/create_table.sql
 
 # Deploy
 
-ssh to server
-install an run ngnix
-
-run server at 0.0.0.0:3000
+run file ./deploy/start.sh
 
 # Test
 go inside project

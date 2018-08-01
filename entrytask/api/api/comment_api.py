@@ -17,10 +17,6 @@ def create(request, user_id):
     if request.method == 'POST' :
         body = json.loads(request.body)
 
-        req = require(body, ['user_id'])
-        if req:
-            return error(req)
-
         body['user_id'] = user_id
 
         comment_manager.create(body)
