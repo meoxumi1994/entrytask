@@ -18,6 +18,16 @@ CREATE TABLE user_tab (
 ) ENGINE=InnoDB;
 CREATE INDEX idx_user_name ON user_tab (user_name);
 
+CREATE TABLE category_tab (
+	id int NOT NULL AUTO_INCREMENT,
+    category_name varchar(255),
+    create_time int,
+    description varchar(255),
+    category_photo varchar(255),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB;
+CREATE INDEX idx_category_name ON category_tab(category_name);
+
 CREATE TABLE event_tab (
 	id int NOT NULL AUTO_INCREMENT,
     create_by int NOT NULL,
@@ -26,8 +36,10 @@ CREATE TABLE event_tab (
     location varchar(255),
     title varchar(255),
     description VARCHAR(2048),
+    category_id int,
     PRIMARY KEY (id),
-    FOREIGN KEY (create_by) REFERENCES user_tab(id)
+    FOREIGN KEY (create_by) REFERENCES user_tab(id),
+    FOREIGN KEY (category_id) REFERENCES category_tab(id)
 ) ENGINE=InnoDB;
 CREATE INDEX idx_create_by ON event_tab (create_by);
 CREATE INDEX idx_event_time ON event_tab (event_time);
@@ -70,26 +82,6 @@ CREATE TABLE like_tab (
 CREATE INDEX idx_event_id_create_time ON like_tab (event_id, create_time);
 CREATE INDEX idx_user_id_create_time ON like_tab (user_id, create_time);
 
-CREATE TABLE category_tab (
-	id int NOT NULL AUTO_INCREMENT,
-    category_name varchar(255),
-    create_time int,
-    description varchar(255),
-    category_photo varchar(255),
-    PRIMARY KEY (id)
-) ENGINE=InnoDB;
-CREATE INDEX idx_category_name ON category_tab(category_name);
-
-CREATE TABLE event_category_tab (
-	id int NOT NULL AUTO_INCREMENT,
-    event_id int NOT NULL,
-    category_id int NOT NULL,
-    PRIMARY KEY (id),
-    FOREIGN KEY (event_id) REFERENCES event_tab(id),
-    FOREIGN KEY (category_id) REFERENCES category_tab(id)
-) ENGINE=InnoDB;
-CREATE INDEX idx_category_id_event_id ON event_category_tab(category_id, event_id);
-
 CREATE TABLE tag_tab (
 	id int NOT NULL AUTO_INCREMENT,
     tag_name varchar(255),
@@ -97,6 +89,7 @@ CREATE TABLE tag_tab (
     PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 CREATE INDEX idx_tag_name ON tag_tab(tag_name);
+
 
 CREATE TABLE event_tag_tab (
 	id int NOT NULL AUTO_INCREMENT,
