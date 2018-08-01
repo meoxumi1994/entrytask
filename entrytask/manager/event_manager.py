@@ -1,4 +1,4 @@
-from common.model import CategoryTab, UserTab, EventTab, EventTagTab, EventCategoryTab, TagTab
+from common.model import CategoryTab, UserTab, EventTab, EventTagTab, TagTab
 from common.object_support import assign
 import hashlib, uuid, datetime, time
 
@@ -35,6 +35,30 @@ def search_by_category(data) :
     return list(event_categorys)
 
 
-def search_by_event_time(data):
-    events = EventTab.objects.filter(event_time__range=[data['start_time'], data['end_time']]).values()
+def search(data):
+
+    start_time = 0
+    end_time = 2533094327
+    category_id = -1
+
+    if 'start_time' in data :
+        start_time = data['start_time']
+    if 'end_time' in data :
+        end_time = data['end_time']
+    if 'category_id' in data :
+        category_id = data['category_id']
+
+
+    if category_id == -1 :
+        events = EventTab.objects.filter(
+            event_time__gte=start_time,
+            event_time__lte=end_time).values()
+        return list(events)
+
+
+    events = EventTab.objects.filter(
+        event_time__gte=start_time,
+        event_time__lte=end_time,
+        category_id=category_id
+        ).values()
     return list(events)

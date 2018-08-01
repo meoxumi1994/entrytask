@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
 
-from .api import comment_api, event_api, like_api, participant_api, user_api
+from .api import comment_api, event_api, like_api, participant_api, user_api, photo_api
 
 urlpatterns = [
     url(r'^create', user_api.create_visitor, name='create_visitor'),
@@ -18,5 +18,8 @@ urlpatterns = [
     url(r'^like_by_event', like_api.get_like_by_event, name="get_like_by_event"),
     url(r'^like', like_api.create, name='create like'),
     url(r'^participant_by_event', participant_api.get_participant_by_event, name='participant_by_event'),
-    url(r'^participant', participant_api.create, name='create participant')
+    url(r'^participant', participant_api.create, name='create participant'),
+
+    url(r'^photo', photo_api.get_photo, name='create participant'),
+
 ]

@@ -35,15 +35,6 @@ class DjangoMigrations(models.Model):
         db_table = 'django_migrations'
 
 
-class EventCategoryTab(models.Model):
-    event = models.ForeignKey('EventTab', models.DO_NOTHING)
-    category = models.ForeignKey(CategoryTab, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'event_category_tab'
-
-
 class EventTab(models.Model):
     create_by = models.ForeignKey('UserTab', models.DO_NOTHING, db_column='create_by')
     create_time = models.IntegerField(blank=True, null=True)
@@ -51,6 +42,7 @@ class EventTab(models.Model):
     location = models.CharField(max_length=255, blank=True, null=True)
     title = models.CharField(max_length=255, blank=True, null=True)
     description = models.CharField(max_length=2048, blank=True, null=True)
+    category = models.ForeignKey(CategoryTab, models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False

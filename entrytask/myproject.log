@@ -16311,3 +16311,69 @@ AttributeError: 'dict' object has no attribute 'status_code'
 [01/Aug/2018 04:30:03] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 62
 [01/Aug/2018 04:30:24] INFO [django:24] handle time excution : 7.89734482765 seconds
 [01/Aug/2018 04:30:24] INFO [django.server:124] "GET /admin/ct_5000_admin HTTP/1.1" 200 33
+[01/Aug/2018 09:05:26] ERROR [django:32] None
+[01/Aug/2018 09:05:26] INFO [django.server:124] "GET /api/event_search?event_id=1&last_time=2533094327&limit=10 HTTP/1.1" 200 62
+[01/Aug/2018 09:11:53] INFO [django:24] 200 SUCCESS handle time excution : 0.0115790367126 seconds
+[01/Aug/2018 09:11:53] INFO [django.server:124] "GET /api/event_search HTTP/1.1" 200 1259
+[01/Aug/2018 09:17:16] ERROR [django:32] None
+[01/Aug/2018 09:17:16] INFO [django.server:124] "GET /api/event_search?category_id=2 HTTP/1.1" 200 62
+[01/Aug/2018 09:18:31] ERROR [django:32] None
+[01/Aug/2018 09:18:31] INFO [django.server:124] "GET /api/event_search?category_id=2 HTTP/1.1" 200 62
+[01/Aug/2018 09:20:30] INFO [django:24] 200 SUCCESS handle time excution : 0.0109519958496 seconds
+[01/Aug/2018 09:20:30] INFO [django.server:124] "GET /api/event_search?category_id=2 HTTP/1.1" 200 383
+[01/Aug/2018 09:20:37] INFO [django:24] 200 SUCCESS handle time excution : 0.00420784950256 seconds
+[01/Aug/2018 09:20:37] INFO [django.server:124] "GET /api/event_search HTTP/1.1" 200 723
+[01/Aug/2018 09:21:06] INFO [django:24] 200 SUCCESS handle time excution : 0.00521802902222 seconds
+[01/Aug/2018 09:21:06] INFO [django.server:124] "GET /api/event_search HTTP/1.1" 200 1403
+[01/Aug/2018 09:21:20] INFO [django:24] 200 SUCCESS handle time excution : 0.00434303283691 seconds
+[01/Aug/2018 09:21:20] INFO [django.server:124] "GET /api/event_search?end_time=1533024509 HTTP/1.1" 200 1403
+[01/Aug/2018 09:21:29] INFO [django:24] 200 SUCCESS handle time excution : 0.00395917892456 seconds
+[01/Aug/2018 09:21:29] INFO [django.server:124] "GET /api/event_search?end_time=1533004509 HTTP/1.1" 200 45
+[01/Aug/2018 09:21:34] INFO [django:24] 200 SUCCESS handle time excution : 0.00460481643677 seconds
+[01/Aug/2018 09:21:34] INFO [django.server:124] "GET /api/event_search?end_time=1533014509 HTTP/1.1" 200 45
+[01/Aug/2018 09:21:39] INFO [django:24] 200 SUCCESS handle time excution : 0.00447392463684 seconds
+[01/Aug/2018 09:21:39] INFO [django.server:124] "GET /api/event_search?end_time=1533024509 HTTP/1.1" 200 1403
+[01/Aug/2018 09:21:50] INFO [django:24] 200 SUCCESS handle time excution : 0.00435996055603 seconds
+[01/Aug/2018 09:21:50] INFO [django.server:124] "GET /api/event_search?end_time=1533024209 HTTP/1.1" 200 45
+[01/Aug/2018 09:21:56] INFO [django:24] 200 SUCCESS handle time excution : 0.00344395637512 seconds
+[01/Aug/2018 09:21:56] INFO [django.server:124] "GET /api/event_search?end_time=1533022509 HTTP/1.1" 200 45
+[01/Aug/2018 09:22:10] ERROR [django:26] Value Error
+[01/Aug/2018 09:22:10] INFO [django.server:124] "GET /api/event_search?start_time= HTTP/1.1" 200 24
+[01/Aug/2018 09:22:15] INFO [django:24] 200 SUCCESS handle time excution : 0.00571179389954 seconds
+[01/Aug/2018 09:22:15] INFO [django.server:124] "GET /api/event_search?start_time=0 HTTP/1.1" 200 1403
+[01/Aug/2018 09:23:24] INFO [django:24] 200 SUCCESS handle time excution : 0.00364995002747 seconds
+[01/Aug/2018 09:23:24] INFO [django.server:124] "GET /api/event_search?start_time=0 HTTP/1.1" 200 723
+[01/Aug/2018 09:23:48] INFO [django:24] 200 SUCCESS handle time excution : 0.0089008808136 seconds
+[01/Aug/2018 09:23:48] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509 HTTP/1.1" 200 553
+[01/Aug/2018 09:23:58] INFO [django:24] 200 SUCCESS handle time excution : 0.00483083724976 seconds
+[01/Aug/2018 09:23:58] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category=1 HTTP/1.1" 200 553
+[01/Aug/2018 09:24:05] INFO [django:24] 200 SUCCESS handle time excution : 0.0043261051178 seconds
+[01/Aug/2018 09:24:05] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category_id=1 HTTP/1.1" 200 383
+[01/Aug/2018 09:24:08] INFO [django:24] 200 SUCCESS handle time excution : 0.00537896156311 seconds
+[01/Aug/2018 09:24:08] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category_id=2 HTTP/1.1" 200 213
+[01/Aug/2018 09:36:41] INFO [django:24] 200 SUCCESS handle time excution : 0.0140039920807 seconds
+[01/Aug/2018 09:36:41] INFO [django.server:124] "GET /api/photo?event_id=1 HTTP/1.1" 200 58
+[01/Aug/2018 09:37:10] INFO [django:24] 200 SUCCESS handle time excution : 0.0131998062134 seconds
+[01/Aug/2018 09:37:10] INFO [django.server:124] "GET /api/photo?event_id=1 HTTP/1.1" 200 69
+[01/Aug/2018 09:40:22] INFO [django:24] 200 SUCCESS handle time excution : 0.00408697128296 seconds
+[01/Aug/2018 09:40:22] INFO [django.server:124] "GET /api/photo?event_id=1 HTTP/1.1" 200 777
+[01/Aug/2018 09:41:44] INFO [django:24] 200 SUCCESS handle time excution : 0.00985407829285 seconds
+[01/Aug/2018 09:41:44] INFO [django.server:124] "GET /api/event_search_by_tag?tag_name=coffee HTTP/1.1" 200 277
+[01/Aug/2018 09:43:16] INFO [django:24] 200 SUCCESS handle time excution : 0.0050368309021 seconds
+[01/Aug/2018 09:43:16] INFO [django.server:124] "GET /api/event_search_by_tag?tag_name=coffee HTTP/1.1" 200 160
+[01/Aug/2018 09:44:57] INFO [django:24] 200 SUCCESS handle time excution : 0.00458288192749 seconds
+[01/Aug/2018 09:44:57] INFO [django.server:124] "GET /api/event_get_by_id?event_id=1 HTTP/1.1" 200 210
+[01/Aug/2018 09:45:07] INFO [django:24] 200 SUCCESS handle time excution : 5.19752502441e-05 seconds
+[01/Aug/2018 09:45:07] INFO [django.server:124] "GET /api/event_search_by_tag?tag_name=coffee HTTP/1.1" 200 70
+[01/Aug/2018 09:45:14] INFO [django:24] 200 SUCCESS handle time excution : 0.00368285179138 seconds
+[01/Aug/2018 09:45:14] INFO [django.server:124] "GET /api/photo?event_id=1 HTTP/1.1" 200 777
+[01/Aug/2018 09:45:15] INFO [django:24] 200 SUCCESS handle time excution : 0.00346899032593 seconds
+[01/Aug/2018 09:45:15] INFO [django.server:124] "GET /api/photo?event_id=1 HTTP/1.1" 200 777
+[01/Aug/2018 09:45:19] INFO [django:24] 200 SUCCESS handle time excution : 0.00309205055237 seconds
+[01/Aug/2018 09:45:19] INFO [django.server:124] "GET /api/event_get_by_id?event_id=1 HTTP/1.1" 200 210
+[01/Aug/2018 09:45:21] INFO [django:24] 200 SUCCESS handle time excution : 0.00319480895996 seconds
+[01/Aug/2018 09:45:21] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category_id=2 HTTP/1.1" 200 213
+[01/Aug/2018 09:45:23] INFO [django:24] 200 SUCCESS handle time excution : 0.00388097763062 seconds
+[01/Aug/2018 09:45:23] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category_id=2 HTTP/1.1" 200 213
+[01/Aug/2018 09:45:24] INFO [django:24] 200 SUCCESS handle time excution : 0.00504398345947 seconds
+[01/Aug/2018 09:45:24] INFO [django.server:124] "GET /api/event_search?start_time=1533021509&end_time=1533023509&category_id=2 HTTP/1.1" 200 213

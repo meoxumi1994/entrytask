@@ -47,9 +47,7 @@ def search_by_tag(request, user_id):
         req = require(body, ['tag_name'])
         if req:
             return error(req)
-
         events = event_manager.search_by_tag(body)
-
         return success({
             'events' : events
         })

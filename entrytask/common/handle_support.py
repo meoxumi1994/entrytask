@@ -21,7 +21,7 @@ def handle_error(f):
         try:
             start_time = time.time()
             response = f(request)
-            logger.INFO("200 SUCCESS handle time excution : %s seconds" % (time.time() - start_time))
+            logger.info("200 SUCCESS handle time excution : %s seconds" % (time.time() - start_time))
         except ValueError :
             logger.error(Error.VALUE)
             return JsonResponse({ 'error': Error.VALUE }, safe=False)
